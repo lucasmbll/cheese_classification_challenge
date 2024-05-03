@@ -3,6 +3,7 @@ import wandb
 import hydra
 from tqdm import tqdm
 
+print(torch.cuda.is_available())
 
 @hydra.main(config_path="configs/generate", config_name="config")
 def generate(cfg):
@@ -17,3 +18,7 @@ def generate(cfg):
 
 if __name__ == "__main__":
     generate()
+
+
+
+
