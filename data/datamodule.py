@@ -14,6 +14,7 @@ class DataModule:
         batch_size,
         num_workers,
     ):
+        print(train_dataset_path)
         self.dataset = ImageFolder(train_dataset_path, transform=train_transform)
         self.train_dataset, self.val_dataset = torch.utils.data.random_split(
             self.dataset,
