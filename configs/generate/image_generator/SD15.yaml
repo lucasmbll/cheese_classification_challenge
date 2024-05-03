@@ -1,0 +1,2 @@
+_target_: generators.SD15.SD15Generator
+use_cpu_offload: false

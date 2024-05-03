@@ -1,0 +1,5 @@
+_target_: data.dataset_generators.advanced_prompts.AdvancedPromptsDatasetGenerator
+generator: ${image_generator}
+batch_size: ${batch_size}
+output_dir: ${data_dir}/train/advanced_prompts
+num_images_per_label: 10
