@@ -30,9 +30,9 @@ class DataAugmentation:
                     image_path = os.path.join(name_dir, file)
                     img = Image.open(image_path)
 
-                    if not self.is_image_black(img):
+                    if self.is_image_black(img):
                         continue
-                    
+
                     original_img = transform_original(img)
                     # Sauvegarder l'image originale
                     save_path_original = os.path.join(output_dir, f'original_{file}')
