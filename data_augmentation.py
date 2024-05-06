@@ -29,6 +29,10 @@ class DataAugmentation:
                 for file in tqdm(images, desc=f"Processing {name}", unit="image"):
                     image_path = os.path.join(name_dir, file)
                     img = Image.open(image_path)
+
+                    if not self.is_image_black(img):
+                        continue
+                    
                     original_img = transform_original(img)
                     # Sauvegarder l'image originale
                     save_path_original = os.path.join(output_dir, f'original_{file}')
@@ -42,6 +46,15 @@ class DataAugmentation:
                             augmented_img = color_jitter_transform(augmented_img)
                         save_path_augmented = os.path.join(output_dir, f'aug_{i}_{file}')
                         torchvision.save_image(augmented_img, save_path_augmented)
+
+
+    def is_image_black(self, image):
+        # Convert the image to grayscale
+        gray_image = image.convert('L')
+        # Calculate the average pixel intensity
+        average_pixel_intensity = sum(gray_image.getdata()) / len(gray_image.getdata())
+        # Check if the average intensity is below a certain threshold
+        return average_pixel_intensity < 1 # Adjust the threshold as needed
                     
 
 # Utilisation de la classe DataAugmentation

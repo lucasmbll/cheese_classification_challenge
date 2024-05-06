@@ -75,43 +75,43 @@ class LlamaPrompts(DatasetGenerator):
     ):
         super().__init__(generator, batch_size, output_dir)
         self.num_images_per_label = num_images_per_label
-        self.lines = """with a Soft, creamy interior, pristine white rind.
-with a Velvety pale interior, bloomy white rind.
-with a Striking orange-red rind, lush creamy center.
-with a Semi-hard texture, intricate blue veins.
-with a Golden-yellow hue, smooth glossy surface.
-with a Semi-soft texture, distinctive layer of vegetable ash.
-with a Rustic natural rind, supple pale interior.
-with a Wrinkled ivory rind, creamy core.
-with a Crumbly texture, vibrant blue veins.
-with a Firm golden-yellow body, natural rind.
-with a Creamy white appearance, soft edible rind.
-with a Hard granular texture, aged golden exterior.
-with a Delicate bloomy rind, velvety interior.
-with a Firm golden-orange body, smooth waxed surface.
-with a Petite cylindrical form, soft creamy texture.
-with a Hard granular texture, dry crumbly surface.
-with a Soft creamy texture, bloomy rind.
-with a Creamy washed-rind, woodsy earthy flavor.
-with a Semi-soft texture, bold tangy flavor.
-with a Mild creamy flavor, stretchy elastic texture.
-with a Small creamy goat cheese, wrinkled rind.
-with a Firm Alpine cheese, smooth golden rind.
-with a Semi-soft texture, aromatic aroma.
-with a Small cylindrical goat cheese, wrinkled rind.
-with a Semi-soft texture, natural rind.
-with a Creamy texture, washed rind.
-with a Firm texture, classic nutty flavor.
-with a Crumbly texture, tangy flavor.
-with a Firm texture, nutty flavor.
-with a Firm texture, vibrant orange color.
-with a Semi-soft texture, pungent aroma.
-with a Firm texture, nutty flavor.
-with a Soft creamy texture, wrinkled rind.
-with a Creamy texture, washed rind.
-with a Fresh milky flavor, stretchy texture.
-with a Semi-hard texture, intricate flower shape.
-with a Soft creamy texture, fresh mild flavor.""".splitlines()
+        self.lines = """ with a Soft, creamy interior, pristine white rind.
+ with a Velvety pale interior, bloomy white rind.
+ with a Striking orange-red rind, lush creamy center.
+ with a Semi-hard texture, intricate blue veins.
+ with a Golden-yellow hue, smooth glossy surface.
+ with a Semi-soft texture, distinctive layer of vegetable ash.
+ with a Rustic natural rind, supple pale interior.
+ with a Wrinkled ivory rind, creamy core.
+ with a Crumbly texture, vibrant blue veins.
+ with a Firm golden-yellow body, natural rind.
+ with a Creamy white appearance, soft edible rind.
+ with a Hard granular texture, aged golden exterior.
+ with a Delicate bloomy rind, velvety interior.
+ with a Firm golden-orange body, smooth waxed surface.
+ with a Petite cylindrical form, soft creamy texture.
+ with a Hard granular texture, dry crumbly surface.
+ with a Soft creamy texture, bloomy rind.
+ with a Creamy washed-rind, woodsy earthy flavor.
+ with a Semi-soft texture, bold tangy flavor.
+ with a Mild creamy flavor, stretchy elastic texture.
+ with a Small creamy goat cheese, wrinkled rind.
+ with a Firm Alpine cheese, smooth golden rind.
+ with a Semi-soft texture, aromatic aroma.
+ with a Small cylindrical goat cheese, wrinkled rind.
+ with a Semi-soft texture, natural rind.
+ with a Creamy texture, washed rind.
+ with a Firm texture, classic nutty flavor.
+ with a Crumbly texture, tangy flavor.
+ with a Firm texture, nutty flavor.
+ with a Firm texture, vibrant orange color.
+ with a Semi-soft texture, pungent aroma.
+ with a Firm texture, nutty flavor.
+ with a Soft creamy texture, wrinkled rind.
+ with a Creamy texture, washed rind.
+ with a Fresh milky flavor, stretchy texture.
+ with a Semi-hard texture, intricate flower shape.
+ with a Soft creamy texture, fresh mild flavor.""".splitlines()
 
     
 
