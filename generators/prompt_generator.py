@@ -1,10 +1,3 @@
-# change accordingly to your local path, prevents quota exceeded error
-
-from transformers import set_cache_dir
-
-cache_dir = "/Data/mellah.adib/cheese_challenge/.cache"
-set_cache_dir(cache_dir)
-
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
