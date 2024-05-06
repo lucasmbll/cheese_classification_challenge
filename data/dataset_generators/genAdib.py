@@ -126,7 +126,7 @@ class LlamaPrompts(DatasetGenerator):
                 prompts[label].append(
                     {
                         "prompt": prompt_description,
-                        "num_images": min(1, self.num_images_per_label//20),
+                        "num_images": max(1, self.num_images_per_label//20),
                     }
                 )
         return prompts
