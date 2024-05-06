@@ -61,4 +61,121 @@ Generate an image showcasing the crumbly texture and the tangy, salty flavor cha
             }]
             print(f"Prompt created for {label} : {prompt}")
         return prompts
+    
 
+
+
+class LlamaPrompts(DatasetGenerator):
+    def __init__(
+        self,
+        generator,
+        batch_size=1,
+        output_dir="dataset/train",
+        num_images_per_label=20,
+    ):
+        super().__init__(generator, batch_size, output_dir)
+        self.num_images_per_label = num_images_per_label
+        self.lines = """with a Soft, creamy interior, pristine white rind.
+with a Velvety pale interior, bloomy white rind.
+with a Striking orange-red rind, lush creamy center.
+with a Semi-hard texture, intricate blue veins.
+with a Golden-yellow hue, smooth glossy surface.
+with a Semi-soft texture, distinctive layer of vegetable ash.
+with a Rustic natural rind, supple pale interior.
+with a Wrinkled ivory rind, creamy core.
+with a Crumbly texture, vibrant blue veins.
+with a Firm golden-yellow body, natural rind.
+with a Creamy white appearance, soft edible rind.
+with a Hard granular texture, aged golden exterior.
+with a Delicate bloomy rind, velvety interior.
+with a Firm golden-orange body, smooth waxed surface.
+with a Petite cylindrical form, soft creamy texture.
+with a Hard granular texture, dry crumbly surface.
+with a Soft creamy texture, bloomy rind.
+with a Creamy washed-rind, woodsy earthy flavor.
+with a Semi-soft texture, bold tangy flavor.
+with a Mild creamy flavor, stretchy elastic texture.
+with a Small creamy goat cheese, wrinkled rind.
+with a Firm Alpine cheese, smooth golden rind.
+with a Semi-soft texture, aromatic aroma.
+with a Small cylindrical goat cheese, wrinkled rind.
+with a Semi-soft texture, natural rind.
+with a Creamy texture, washed rind.
+with a Firm texture, classic nutty flavor.
+with a Crumbly texture, tangy flavor.
+with a Firm texture, nutty flavor.
+with a Firm texture, vibrant orange color.
+with a Semi-soft texture, pungent aroma.
+with a Firm texture, nutty flavor.
+with a Soft creamy texture, wrinkled rind.
+with a Creamy texture, washed rind.
+with a Fresh milky flavor, stretchy texture.
+with a Semi-hard texture, intricate flower shape.
+with a Soft creamy texture, fresh mild flavor.""".splitlines()
+
+    
+
+    def create_prompts(self, labels_names):
+        prompts = {}
+        for i, label in enumerate(labels_names):
+            prompts[label] = []
+            descriptions = self.generate_prompt_description(label)
+            for elt in descriptions:
+                prompt_description = elt + self.lines[i]
+                print(prompt_description)
+                prompts[label].append(
+                    {
+                        "prompt": prompt_description,
+                        "num_images": min(1, self.num_images_per_label//20),
+                    }
+                )
+        return prompts
+
+    def generate_prompt_description(self, label):
+        descriptions = [
+            f"An image of a {label} cheese",
+            f"A close-up of a {label} cheese",
+            f"A {label} cheese on a wooden board",
+            f"A sliced {label} cheese",
+            f"An image of a {label} cheese atop a rustic wooden cheeseboard",
+            f"An image of a {label} cheese with a knife poised to slice",
+            f"An image of a {label} cheese wheel surrounded by assorted crackers",
+            f"An image of a {label} cheese accompanied by a selection of fruits and nuts",
+            f"An image of a {label} cheese paired with a glass of fine wine",
+            f"An image of a {label} cheese adorned with fresh herbs and edible flowers",
+            f"An image of a {label} cheese presented on a slate platter",
+            f"An image of a {label} cheese with honey drizzled on top",
+            f"An image of a {label} cheese crumbled over a colorful salad",
+            f"An image of a {label} cheese melted and oozing from a grilled sandwich",
+            f"An image of a {label} cheese served on a charcuterie board with cured meats",
+            f"An image of a {label} cheese paired with figs and artisanal bread",
+            f"An image of a {label} cheese nestled among olives and pickles",
+            f"An image of a {label} cheese with a cheese knife and fork on a linen napkin",
+            f"An image of a {label} cheese garnished with cracked pepper and sea salt",
+            f"An image of a {label} cheese on a cheeseboard with vintage wine bottles",
+            f"An image of a {label} cheese accompanied by homemade preserves",
+            f"An image of a {label} cheese cracker topped with a dollop of chutney",
+            f"An image of a {label} cheese wedge with a cheese plane slicing a portion",
+            f"An image of a {label} cheese served alongside artisanal chocolates",
+            f"An image of a {label} cheese melting over a bubbling pot of fondue",
+            f"An image of a {label} cheese arranged on a platter with gourmet crackers",
+            f"An image of a {label} cheese paired with slices of fresh baguette",
+            f"An image of a {label} cheese crumbled over a colorful salad",
+            f"An image of a {label} cheese served on a cheeseboard with dried fruits",
+            f"An image of a {label} cheese topped with a drizzle of balsamic glaze",
+            f"An image of a {label} cheese accompanied by a selection of olives",
+            f"An image of a {label} cheese displayed on a marble serving tray",
+            f"An image of a {label} cheese garnished with sprigs of fresh rosemary",
+            f"An image of a {label} cheese served with slices of apple and pear",
+            f"An image of a {label} cheese paired with a variety of honeycomb",
+            f"An image of a {label} cheese surrounded by clusters of grapes",
+            f"An image of a {label} cheese cracker topped with a slice of prosciutto",
+            f"An image of a {label} cheese served on a wooden cutting board",
+            f"An image of a {label} cheese accompanied by artisanal jams",
+            f"An image of a {label} cheese sprinkled with toasted nuts",
+            f"An image of a {label} cheese served with a selection of mustards",
+            f"An image of a {label} cheese paired with slices of crusty bread",
+            f"An image of a {label} cheese nestled among marinated vegetables",
+            f"An image of a {label} cheese accompanied by a variety of crackers"
+        ]
+        return descriptions

@@ -1,5 +1,5 @@
-_target_: data.dataset_generators.genAdib.firstGen
+_target_: data.dataset_generators.genAdib.LlamaPrompts
 generator: ${image_generator}
 batch_size: ${batch_size}
-output_dir: ${data_dir}/train/firstGen
-num_images_per_label: 20
+output_dir: ${data_dir}/train/06-05-llama3-prompts
+num_images_per_label: 200
