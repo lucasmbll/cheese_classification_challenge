@@ -14,8 +14,8 @@ class SDXLTurboGenerator:
             self.pipe.scheduler.config, timestep_spacing="trailing"
         )
         self.pipe.set_progress_bar_config(disable=True)
-        self.num_inference_steps = 4
-        self.guidance_scale = 0
+        self.num_inference_steps = 20
+        self.guidance_scale = 10
 
     def generate(self, prompts):
         images = self.pipe(
