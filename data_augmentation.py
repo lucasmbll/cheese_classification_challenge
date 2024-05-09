@@ -8,6 +8,7 @@ import random
 class DataAugmentation:
     def __init__(self, data_dir):
         self.data_dir = data_dir
+        print("dir is " + self.data_dir)
 
     def augment_images(self):
         for root, dirs, files in os.walk(self.data_dir):
@@ -55,6 +56,7 @@ class DataAugmentation:
         average_pixel_intensity = sum(gray_image.getdata()) / len(gray_image.getdata())
         # Check if the average intensity is below a certain threshold
         return average_pixel_intensity < 1 # Adjust the threshold as needed
+        
                     
 
 # Utilisation de la classe DataAugmentation

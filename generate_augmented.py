@@ -10,7 +10,7 @@ from data_augmentation import DataAugmentation
 def generate_augmented(cfg):
     # Appeler la fonction generate() de generate.py
     #generate(cfg)
-
+    print("Data augmentation starting")
     # Initialiser l'objet DataAugmentation
     data_augmentor = DataAugmentation(data_dir=cfg.dataset_generator.output_dir)
     data_augmentor.augment_images()
