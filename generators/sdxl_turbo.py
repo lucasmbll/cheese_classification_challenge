@@ -6,7 +6,7 @@ from safetensors.torch import load_file
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 class SDXLTurboGenerator:
-    def __init__(self):
+    def __init__(self, use_cpu_offload=False):
         model_id = "stabilityai/sdxl-turbo"
         self.pipe = AutoPipelineForText2Image.from_pretrained(model_id, torch_dtype=torch.float16, variant="fp16")
         self.pipe = self.pipe.to(device)
@@ -14,6 +14,8 @@ class SDXLTurboGenerator:
             self.pipe.scheduler.config, timestep_spacing="trailing"
         )
         self.pipe.set_progress_bar_config(disable=True)
+        if use_cpu_offload:
+            self.pipe.enable_sequential_cpu_offload()
         self.num_inference_steps = 20
         self.guidance_scale = 10
 
