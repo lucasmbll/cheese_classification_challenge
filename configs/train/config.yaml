@@ -3,12 +3,13 @@ defaults:
   - dataset: simple_prompts
   - optim: adamw
   - loss_fn: cross_entropy
+  - augmented: False
 
 epochs: 3
 
 datamodule:
   _target_: data.datamodule.DataModule
-  train_dataset_path: ${dataset.train_path}
+  train_dataset_path: ${dataset.train_path}_augmented if augmented else ${dataset.train_path}_augmented
   real_images_val_path: ${dataset.real_images_val_path}
   train_transform: ${dataset.train_transform}
   val_transform: ${dataset.test_transform}
