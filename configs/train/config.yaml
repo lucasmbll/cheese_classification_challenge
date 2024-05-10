@@ -3,7 +3,6 @@ defaults:
   - dataset: simple_prompts
   - optim: adamw
   - loss_fn: cross_entropy
-  - augmented: 'false'
 
 epochs: 3
 

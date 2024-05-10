@@ -16,8 +16,10 @@ class DataModule:
         augmented=False,
     ):
         print(train_dataset_path)
-        if (augmented): train_dataset_path = train_dataset_path + "_augmented"
-        self.dataset = ImageFolder(train_dataset_path, transform=train_transform)
+        real_train_dataset_path = (
+            train_dataset_path + "_augmented" if augmented else train_dataset_path
+        )
+        self.dataset = ImageFolder(real_train_dataset_path, transform=train_transform)
         self.train_dataset, self.val_dataset = torch.utils.data.random_split(
             self.dataset,
             [
