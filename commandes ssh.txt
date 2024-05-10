@@ -1,0 +1,3 @@
+preload libbz2 : LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6
+utiliser cache spécial pour pas encombre mémoire : export HF_HOME=/Data/mellah.adib/huggingface
+export TRANSFORMERS_CACHE=/Data/mellah.adib/huggingface
