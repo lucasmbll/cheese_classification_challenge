@@ -9,12 +9,13 @@ epochs: 3
 
 datamodule:
   _target_: data.datamodule.DataModule
-  train_dataset_path: ${dataset.train_path}_augmented if augmented=='false' else ${dataset.train_path}_augmented
+  train_dataset_path: ${dataset.train_path}
   real_images_val_path: ${dataset.real_images_val_path}
   train_transform: ${dataset.train_transform}
   val_transform: ${dataset.test_transform}
   batch_size: ${dataset.batch_size}
   num_workers: ${dataset.num_workers}
+  augmented: ${augmented}
 
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}

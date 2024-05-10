@@ -13,8 +13,10 @@ class DataModule:
         val_transform,
         batch_size,
         num_workers,
+        augmented=False,
     ):
         print(train_dataset_path)
+        if (augmented): train_dataset_path = train_dataset_path + "_augmented"
         self.dataset = ImageFolder(train_dataset_path, transform=train_transform)
         self.train_dataset, self.val_dataset = torch.utils.data.random_split(
             self.dataset,
