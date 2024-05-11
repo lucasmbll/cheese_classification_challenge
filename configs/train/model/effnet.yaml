@@ -1,7 +1,7 @@
 instance:
-  _target_: models.dinov2.DinoV2Finetune1
+  _target_: models.effnet.effnetV2Base
   num_classes: ${dataset.num_classes}
   frozen: True
   unfreeze_last_layer: True
 
-name: DINOV2
+name: EffNetV2

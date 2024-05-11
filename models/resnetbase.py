@@ -1,8 +1,4 @@
-import torchvision
-import torch.nn as nn
-
-
-class ResNetFinetune(nn.Module):
+class ResNetBase(nn.Module):
     def __init__(self, num_classes, frozen=False):
         super().__init__()
         self.backbone = torchvision.models.resnet50(pretrained=True)
@@ -17,11 +13,9 @@ class ResNetFinetune(nn.Module):
             if any([layer in name for layer in unfreeze_layers]):
                 param.requires_grad = True
                 print("unfreezing ", name)
-        self.dropout = nn.Dropout(0.5)
         self.classifier = nn.Linear(2048, num_classes)
 
     def forward(self, x):
         x = self.backbone(x)
-        x = self.dropout(x)
         x = self.classifier(x)
         return x
