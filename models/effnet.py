@@ -8,11 +8,8 @@ class effnetV2Base(nn.Module):
         self.backbone = effnet.efficientnet_v2_m(effnet.EfficientNet_V2_M_Weights.DEFAULT)
         self.backbone.head = nn.Identity()
         if frozen:
-            for param in self.backbone.parameters():
+            for param in self.backbone.parameters()[:-1]:
                 param.requires_grad = False
-                if unfreeze_last_layer:
-                    for param in self.backbone.blocks[-1].parameters():
-                        param.requires_grad = True
         self.dropout = nn.Dropout(0.5)
         self.classifier = nn.Linear(self.backbone._fc.in_features, num_classes)
 
