@@ -50,7 +50,7 @@ class DataAugmentation:
                     torchvision.save_image(original_img, save_path_original)
                     
                     # Apply random augmented transformations
-                    for i in range(4):
+                    for i in range(10):
                         augmented_img = transform_augmented(img)
                         save_path_augmented = os.path.join(output_dir, f'aug_{i}_{file}')
                         torchvision.save_image(augmented_img, save_path_augmented)
