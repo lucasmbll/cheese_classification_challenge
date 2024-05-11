@@ -122,7 +122,7 @@ class GptPrompts(DatasetGenerator):
             descriptions = self.generate_prompt_description()
             for elt in descriptions:
                 prompt_description = elt.format(label=label, desc=self.lines[i])
-                print(prompt_description)
+                # print(prompt_description)
                 prompts[label].append(
                     {
                         "prompt": prompt_description,

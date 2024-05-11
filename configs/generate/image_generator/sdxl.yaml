@@ -1,2 +1,2 @@
 _target_: generators.sdxlbase.SDXLGenerator
-use_cpu_offload: false
+use_cpu_offload: true

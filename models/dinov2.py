@@ -21,3 +21,5 @@ class DinoV2Finetune(nn.Module):
         x = self.backbone(x)
         x = self.classifier(x)
         return x
+
+

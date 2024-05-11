@@ -1,6 +1,6 @@
 import os
-import torchvision.utils as torchvision
 import torchvision.transforms as transforms
+import torchvision.utils as torchvision
 from PIL import Image
 from tqdm import tqdm
 import random
@@ -16,16 +16,26 @@ class DataAugmentation:
                 name_dir = os.path.join(root, name)
                 output_dir = os.path.join(self.data_dir+"_augmented", name)
                 os.makedirs(output_dir, exist_ok=True)
+                
+                # Original and augmented transformations
                 transform_original = transforms.Compose([
                     transforms.ToTensor()
                 ])
                 transform_augmented = transforms.Compose([
-                    transforms.RandomRotation(20),
+                    transforms.RandomChoice([
+                        transforms.RandomRotation(20),
+                        transforms.RandomResizedCrop(256, scale=(0.8, 1.0)),
+                        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1),
+                        transforms.RandomHorizontalFlip(),
+                        transforms.RandomVerticalFlip(),
+                        transforms.RandomAffine(degrees=20, translate=(0.1, 0.1), scale=(0.8, 1.2), shear=10),
+                        transforms.RandomPerspective(distortion_scale=0.2),
+                        # Add more creative transformations here
+                    ]),
                     transforms.RandomApply([transforms.GaussianBlur(kernel_size=3)], p=0.5),
-                    transforms.RandomResizedCrop(256, scale=(0.8, 1.0)),
                     transforms.ToTensor()
                 ])
-                color_jitter_transform = transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1)
+                
                 images = [file for file in os.listdir(name_dir) if file.endswith(".jpg") or file.endswith(".png")]
                 for file in tqdm(images, desc=f"Processing {name}", unit="image"):
                     image_path = os.path.join(name_dir, file)
@@ -35,19 +45,15 @@ class DataAugmentation:
                         continue
 
                     original_img = transform_original(img)
-                    # Sauvegarder l'image originale
+                    # Save the original image
                     save_path_original = os.path.join(output_dir, f'original_{file}')
                     torchvision.save_image(original_img, save_path_original)
-                    # Créer et sauvegarder 4 versions transformées aléatoires
-                    k = random.randint(1, 4)
+                    
+                    # Apply random augmented transformations
                     for i in range(4):
                         augmented_img = transform_augmented(img)
-                        # Appliquer l'aberration chromatique à une seule image augmentée
-                        if i == k:
-                            augmented_img = color_jitter_transform(augmented_img)
                         save_path_augmented = os.path.join(output_dir, f'aug_{i}_{file}')
                         torchvision.save_image(augmented_img, save_path_augmented)
-
 
     def is_image_black(self, image):
         # Convert the image to grayscale
@@ -56,9 +62,3 @@ class DataAugmentation:
         average_pixel_intensity = sum(gray_image.getdata()) / len(gray_image.getdata())
         # Check if the average intensity is below a certain threshold
         return average_pixel_intensity < 1 # Adjust the threshold as needed
-        
-                    
-
-# Utilisation de la classe DataAugmentation
-data_augmentor = DataAugmentation(data_dir='advanced_prompts')
-data_augmentor.augment_images()
