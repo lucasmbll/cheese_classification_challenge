@@ -3,7 +3,8 @@ defaults:
   - dataset: simple_prompts
   - optim: adamw
   - loss_fn: cross_entropy
-  - epochs: 3
+
+epochs: 5
 
 datamodule:
   _target_: data.datamodule.DataModule
