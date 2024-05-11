@@ -5,7 +5,7 @@ import torch.nn as nn
 class effnetV2Base(nn.Module):
     def __init__(self, num_classes, frozen=False, unfreeze_last_layer=True):
         super().__init__()
-        self.backbone = effnet.efficientnet_v2_m()
+        self.backbone = effnet.efficientnet_v2_m(effnet.EfficientNet_V2_M_Weights.DEFAULT)
         self.backbone.head = nn.Identity()
         if frozen:
             for param in self.backbone.parameters():
