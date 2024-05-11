@@ -7,12 +7,13 @@ class effnetV2Base(nn.Module):
         super().__init__()
         self.backbone = effnet.efficientnet_v2_m(effnet.EfficientNet_V2_M_Weights.DEFAULT)
         self.backbone.head = nn.Identity()
+        size = None
         if frozen:
             for i, param in enumerate(self.backbone.parameters()):
-                if (i==7): continue
+                if (i==7): size = param.size()
                 param.requires_grad = False
         self.dropout = nn.Dropout(0.5)
-        self.classifier = nn.Linear(self.backbone._fc.in_features, num_classes)
+        self.classifier = nn.Linear(size, num_classes)
 
     def forward(self, x):
         x = self.backbone(x)
