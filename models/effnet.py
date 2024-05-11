@@ -16,7 +16,7 @@ class effnetV2Base(nn.Module):
                     for param in self.backbone.blocks[-1].parameters():
                         param.requires_grad = True
         self.dropout = nn.Dropout(0.5)
-        self.classifier = nn.Linear(self.backbone.norm.normalized_shape[0], num_classes)
+        self.classifier = nn.Linear(self.backbone._fc.in_features, num_classes)
 
     def forward(self, x):
         x = self.backbone(x)
