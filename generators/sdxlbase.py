@@ -50,27 +50,27 @@ class SDXLGenerator:
         self.guidance_scale = 5
 
         # Test of StableFast optimization
-        config = CompilationConfig.Default()
+        """config = CompilationConfig.Default()
         config.enable_xformers = True
         config.enable_triton = True
         config.enable_cuda_graph = True
         self.base_pipe = compile(self.base_pipe, config)
-        self.refiner_pipe = compile(self.refiner_pipe, config)
+        self.refiner_pipe = compile(self.refiner_pipe, config)"""
 
         # Test of various optimizations
-        self.base_pipe.unet = torch.compile(self.base_pipe.unet, mode='reduce-overhead', fullgraph=True)
-        self.refiner_pipe.unet = torch.compile(self.refiner_pipe.unet, mode='reduce-overhead', fullgraph=True)
-        self.base_pipe.unet = oneflow_compile(self.base_pipe.unet)
-        self.refiner_pipe.unet = oneflow_compile(self.refiner_pipe.unet)
+        #self.base_pipe.unet = torch.compile(self.base_pipe.unet, mode='reduce-overhead', fullgraph=True)
+        #self.refiner_pipe.unet = torch.compile(self.refiner_pipe.unet, mode='reduce-overhead', fullgraph=True)
+        # self.base_pipe.unet = oneflow_compile(self.base_pipe.unet)
+        # self.refiner_pipe.unet = oneflow_compile(self.refiner_pipe.unet)
         self.base_pipe.enable_freeu(s1=0.9, s2=0.2, b1=1.3, b2=1.4)
         self.refiner_pipe.enable_freeu(s1=0.9, s2=0.2, b1=1.3, b2=1.4)
 
         # Test of DeepCache optimization : less time but worse images and more memory
         """helper = DeepCacheSDHelper(pipe=self.base_pipe)
-        helper.set_params(cache_interval=3, cache_branch_id=0)
+        helper.set_params(cache_interval=10, cache_branch_id=0)
         helper.enable()
         helper = DeepCacheSDHelper(pipe=self.refiner_pipe)
-        helper.set_params(cache_interval=3, cache_branch_id=0)
+        helper.set_params(cache_interval=10, cache_branch_id=0)
         helper.enable()"""
 
 

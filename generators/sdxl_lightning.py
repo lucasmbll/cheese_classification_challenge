@@ -32,7 +32,7 @@ class SDXLLightiningGenerator:
         self.pipe.set_progress_bar_config(disable=True)
         if use_cpu_offload:
             self.pipe.enable_sequential_cpu_offload()
-        self.num_inference_steps = 10
+        self.num_inference_steps = 40
         self.guidance_scale = 5
 
     def generate(self, prompts):
@@ -40,5 +40,5 @@ class SDXLLightiningGenerator:
             prompts,
             num_inference_steps=self.num_inference_steps,
             guidance_scale=self.guidance_scale,
-        ).images
+        ).images    
         return images

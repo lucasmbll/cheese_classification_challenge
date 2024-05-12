@@ -16,8 +16,8 @@ class SD15Generator:
         self.pipe.set_progress_bar_config(disable=True)
         if use_cpu_offload:
             self.pipe.enable_sequential_cpu_offload()
-        self.num_inference_steps = 50
-        self.guidance_scale = 10
+        self.num_inference_steps = 40
+        self.guidance_scale = 5
 
     def generate(self, prompts):
         images = self.pipe(

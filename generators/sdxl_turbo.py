@@ -16,8 +16,9 @@ class SDXLTurboGenerator:
         self.pipe.set_progress_bar_config(disable=True)
         if use_cpu_offload:
             self.pipe.enable_sequential_cpu_offload()
-        self.num_inference_steps = 20
+        self.num_inference_steps = 70
         self.guidance_scale = 10
+        # self.pipe.enable_freeu(s1=0.9, s2=0.2, b1=1.3, b2=1.4)
 
     def generate(self, prompts):
         images = self.pipe(
