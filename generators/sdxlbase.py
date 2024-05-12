@@ -46,7 +46,7 @@ class SDXLGenerator:
             self.base_pipe = self.base_pipe.to(device)
             self.refiner_pipe = self.refiner_pipe.to(device)
         
-        self.num_inference_steps = 20
+        self.num_inference_steps = 15
         self.guidance_scale = 5
 
         # Test of StableFast optimization
