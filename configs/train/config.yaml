@@ -4,7 +4,7 @@ defaults:
   - optim: adamw
   - loss_fn: cross_entropy
 
-epochs: 5
+epochs: 2
 
 datamodule:
   _target_: data.datamodule.DataModule
