@@ -118,7 +118,7 @@ class GptPrompts(DatasetGenerator):
     def create_prompts(self, labels_names):
         prompts = {}
         for i, label in enumerate(labels_names):
-            if (i<15 and i!=12): continue
+            if (i<21): continue
             prompts[label] = []
             descriptions = self.generate_prompt_description()
             for elt in descriptions:
