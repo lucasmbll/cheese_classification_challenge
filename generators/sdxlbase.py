@@ -1,7 +1,7 @@
 from diffusers import DiffusionPipeline, EulerDiscreteScheduler, UNet2DConditionModel, AutoencoderTiny
 import torch
 import xformers
-# import triton
+import triton
 # from sfast.compilers.diffusion_pipeline_compiler import (compile, CompilationConfig)
 # from DeepCache import DeepCacheSDHelper
 # import oneflow as flow
