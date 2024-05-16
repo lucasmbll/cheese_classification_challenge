@@ -1,10 +1,10 @@
 defaults:
-  - model: dinov2
+  - model: dinov2base
   - dataset: simple_prompts
   - optim: adamw
   - loss_fn: cross_entropy
 
-epochs: 2
+epochs: 4
 
 datamodule:
   _target_: data.datamodule.DataModule

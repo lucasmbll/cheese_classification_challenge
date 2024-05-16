@@ -1,14 +1,115 @@
-Generate one or two sentences describing the specific characteristics of BRIE DE MELUN in a credible context. Write the sentences as if you were giving it to an image generator.
-Brie de;;Generate one or two sentences describing the specific characteristics of CAMEMBERT in a credible context. Write the sentences as if you were giving it to an image generator. Be as specific as possible, using;;Generate one or two sentences describing the specific characteristics of EPOISSES in a credible context. Write the sentences as if you were giving it to an image generator.
-Epoisses is a creamy;;Generate one or two sentences describing the specific characteristics of FOURME D’AMBERT in a credible context. Write the sentences as if you were giving it to an image generator to produce a picture.;;Generate one or two sentences describing the specific characteristics of RACLETTE in a credible context. Write the sentences as if you were giving it to an image generator. The more specific the better.
-The;;Generate one or two sentences describing the specific characteristics of MORBIER in a credible context. Write the sentences as if you were giving it to an image generator. Then, the image generator will produce;;Generate one or two sentences describing the specific characteristics of SAINT-NECTAIRE in a credible context. Write the sentences as if you were giving it to an image generator. The sentences must be;;Generate one or two sentences describing the specific characteristics of POULIGNY SAINT- PIERRE in a credible context. Write the sentences as if you were giving it to an image generator to;;Generate one or two sentences describing the specific characteristics of ROQUEFORT in a credible context. Write the sentences as if you were giving it to an image generator, such as DALL-E.;;Generate one or two sentences describing the specific characteristics of COMTÉ in a credible context. Write the sentences as if you were giving it to an image generator. The sentences should be as generic as;;Generate one or two sentences describing the specific characteristics of CHÈVRE in a credible context. Write the sentences as if you were giving it to an image generator, such as DALL-E.;;Generate one or two sentences describing the specific characteristics of PECORINO in a credible context. Write the sentences as if you were giving it to an image generator. The sentences will be used to;;Generate one or two sentences describing the specific characteristics of NEUFCHATEL in a credible context. Write the sentences as if you were giving it to an image generator. The sentences should be as;;Generate one or two sentences describing the specific characteristics of CHEDDAR in a credible context. Write the sentences as if you were giving it to an image generator. You can use the following example;;Generate one or two sentences describing the specific characteristics of BÛCHETTE DE CHÈVRE in a credible context. Write the sentences as if you were giving it to an image generator.
-;;Generate one or two sentences describing the specific characteristics of PARMESAN in a credible context. Write the sentences as if you were giving it to an image generator, not as if you were writing;;Generate one or two sentences describing the specific characteristics of SAINT- FÉLICIEN in a credible context. Write the sentences as if you were giving it to an image generator.
-The town;;Generate one or two sentences describing the specific characteristics of MONT D’OR in a credible context. Write the sentences as if you were giving it to an image generator.
-The best way to describe;;Generate one or two sentences describing the specific characteristics of STILTON in a credible context. Write the sentences as if you were giving it to an image generator.
-Generate one or two sentences describing the;;Generate one or two sentences describing the specific characteristics of SCARMOZA in a credible context. Write the sentences as if you were giving it to an image generator. If you are not sure about;;Generate one or two sentences describing the specific characteristics of CABECOU in a credible context. Write the sentences as if you were giving it to an image generator. For example, "A small,;;Generate one or two sentences describing the specific characteristics of BEAUFORT in a credible context. Write the sentences as if you were giving it to an image generator.
-The Beaufort is a;;Generate one or two sentences describing the specific characteristics of MUNSTER in a credible context. Write the sentences as if you were giving it to an image generator.
-Munster is a region in;;Generate one or two sentences describing the specific characteristics of CHABICHOU in a credible context. Write the sentences as if you were giving it to an image generator.
-A few examples of how to;;Generate one or two sentences describing the specific characteristics of TOMME DE VACHE in a credible context. Write the sentences as if you were giving it to an image generator. Make sure to include the;;Generate one or two sentences describing the specific characteristics of REBLOCHON in a credible context. Write the sentences as if you were giving it to an image generator, and then let the image;;Generate one or two sentences describing the specific characteristics of EMMENTAL in a credible context. Write the sentences as if you were giving it to an image generator.
-The cheese is a semi-hard cheese;;Generate one or two sentences describing the specific characteristics of FETA in a credible context. Write the sentences as if you were giving it to an image generator to generate an image of the cheese. (;;Generate one or two sentences describing the specific characteristics of OSSAU- IRATY in a credible context. Write the sentences as if you were giving it to an image generator. The sentences should be;;Generate one or two sentences describing the specific characteristics of MIMOLETTE in a credible context. Write the sentences as if you were giving it to an image generator. The sentences should be as;;Generate one or two sentences describing the specific characteristics of MAROILLES in a credible context. Write the sentences as if you were giving it to an image generator to create a picture.
-MARO;;Generate one or two sentences describing the specific characteristics of GRUYÈRE in a credible context. Write the sentences as if you were giving it to an image generator (e.g. DALL-E;;Generate one or two sentences describing the specific characteristics of MOTHAIS in a credible context. Write the sentences as if you were giving it to an image generator (e.g. DALL-E,;;Generate one or two sentences describing the specific characteristics of VACHERIN in a credible context. Write the sentences as if you were giving it to an image generator. For example, "a VACHER;;Generate one or two sentences describing the specific characteristics of MOZZARELLA in a credible context. Write the sentences as if you were giving it to an image generator.
-The mozzarella is a;;Generate one or two sentences describing the specific characteristics of TÊTE DE MOINES in a credible context. Write the sentences as if you were giving it to an image generator. It is important that;;Generate one or two sentences describing the specific characteristics of FROMAGE FRAIS in a credible context. Write the sentences as if you were giving it to an image generator. The more specific you are,;;
+in its original packaging
+in a market stall
+on a charcuterie board
+whole, in a rack of the same cheeses
+during production
+in the production line
+with a label stuck on it
+displayed on a table 
+with a flag of the cheese's country of origin
+displayed on a similar cheese board
+In a Grocery Store
+At a Delicatessen
+At a Restaurant
+In a Sandwich
+In a Salad
+In a Gift Basket
+In a Dairy Farm
+In a Picnic Basket
+
+
+
+accompanied by a variety of crackers
+nestled among marinated vegetables
+paired with slices of crusty bread
+served with a selection of mustards
+sprinkled with toasted nuts
+accompanied by artisanal jams
+served on a wooden cutting board
+cracker topped with a slice of prosciutto
+surrounded by clusters of grapes
+paired with a variety of honeycomb
+served with slices of apple and pear
+garnished with sprigs of fresh rosemary
+displayed on a marble serving tray
+accompanied by a selection of olives
+topped with a drizzle of balsamic glaze
+served on a cheeseboard with dried fruits
+crumbled over a colorful salad
+paired with slices of fresh baguette
+arranged on a platter with gourmet crackers
+melting over a bubbling pot of fondue
+served alongside artisanal chocolates
+wedge with a cheese plane slicing a portion
+cracker topped with a dollop of chutney
+accompanied by homemade preserves
+on a cheeseboard with vintage wine bottles
+garnished with cracked pepper and sea salt
+with a cheese knife and fork on a linen napkin
+nestled among olives and pickles
+paired with figs and artisanal bread
+served on a charcuterie board with cured meats
+melted and oozing from a grilled sandwich
+crumbled over a colorful salad"
+with honey drizzled on top
+presented on a slate platter
+adorned with fresh herbs and edible flowers
+paired with a glass of fine wine
+accompanied by a selection of fruits and nuts
+wheel surrounded by assorted crackers
+with a knife poised to slice
+atop a rustic wooden cheeseboard
+
+
+thinly sliced
+whole
+half-eaten
+in large pieces
+in small cubes
+shredded
+in balls
+in the form of logs
+melted
+
+
+
+PER CHEESE :
+
+BRIE DE MELUN
+french, cow, soft cheese with bloomy rind, with bread and vine, 
+CAMEMBERT
+EPOISSES
+FOURME D’AMBERT
+RACLETTE
+MORBIER
+SAINT-NECTAIRE
+POULIGNY SAINT- PIERRE
+ROQUEFORT
+COMTÉ
+CHÈVRE
+PECORINO
+NEUFCHATEL
+CHEDDAR
+BÛCHETTE DE CHÈVRE
+PARMESAN
+SAINT- FÉLICIEN
+MONT D’OR
+STILTON
+SCARMOZA
+CABECOU
+BEAUFORT
+MUNSTER
+CHABICHOU
+TOMME DE VACHE
+REBLOCHON
+EMMENTAL
+FETA
+OSSAU- IRATY
+MIMOLETTE
+MAROILLES
+GRUYÈRE
+MOTHAIS
+VACHERIN
+MOZZARELLA
+TÊTE DE MOINES
+FROMAGE FRAIS

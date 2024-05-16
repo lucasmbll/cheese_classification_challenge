@@ -3,4 +3,4 @@ instance:
   num_classes: ${dataset.num_classes}
   frozen: True
 
-name: ResNet18
+name: ResNet18BASE
