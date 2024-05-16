@@ -121,7 +121,7 @@ class GptPrompts(DatasetGenerator):
             if (i!=35): continue
             prompts[label] = []
             descriptions = self.generate_prompt_description()
-            for elt in descriptions:
+            for elt in descriptions[13:]:
                 prompt_description = elt.format(label=label, desc=self.lines[i])
                 # print(prompt_description)
                 prompts[label].append(
