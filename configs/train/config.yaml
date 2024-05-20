@@ -20,6 +20,9 @@ root_dir:  ${hydra:runtime.cwd}
 checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
 
 experiment_name: ${model.name}_${dataset.name}
+ocr_method: 'easyocr'  # To choose the ocr method
+comparison_method: 'fuzzywuzzy'  # or 'difflib'
+
 hydra:
   run:
     dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/
