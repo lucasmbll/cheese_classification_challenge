@@ -1,0 +1,3702 @@
+[
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000000.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000001.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000002.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000003.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000004.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000005.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000006.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000007.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000008.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000009.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000010.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000011.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000012.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000013.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000014.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000015.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000016.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000017.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000018.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000019.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000020.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000021.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000022.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000023.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BRIE_DE_MELUN/000024.jpg",
+        "text": "BRIE DE MELUN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000000.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000001.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000002.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000003.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000004.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000005.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000006.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000007.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000008.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000009.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000010.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000011.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000012.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000013.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000014.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000015.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000016.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000017.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000018.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000019.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000020.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000021.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000022.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000023.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CAMEMBERT/000024.jpg",
+        "text": "CAMEMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000000.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000001.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000002.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000003.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000004.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000005.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000006.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000007.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000008.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000009.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000010.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000011.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000012.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000013.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000014.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000015.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000016.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000017.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000018.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000019.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000020.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000021.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000022.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000023.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EPOISSES/000024.jpg",
+        "text": "EPOISSES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000000.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000001.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000002.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000003.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000004.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000005.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000006.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000007.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000008.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000009.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000010.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000011.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000012.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000013.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000014.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000015.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000016.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000017.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000018.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000019.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000020.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000021.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000022.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000023.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FOURME_DAMBERT/000024.jpg",
+        "text": "FOURME D’AMBERT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000000.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000001.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000002.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000003.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000004.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000005.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000006.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000007.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000008.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000009.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000010.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000011.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000012.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000013.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000014.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000015.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000016.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000017.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000018.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000019.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000020.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000021.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000022.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000023.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/RACLETTE/000024.jpg",
+        "text": "RACLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000000.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000001.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000002.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000003.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000004.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000005.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000006.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000007.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000008.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000009.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000010.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000011.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000012.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000013.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000014.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000015.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000016.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000017.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000018.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000019.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000020.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000021.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000022.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000023.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MORBIER/000024.jpg",
+        "text": "MORBIER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000000.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000001.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000002.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000003.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000004.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000005.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000006.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000007.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000008.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000009.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000010.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000011.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000012.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000013.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000014.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000015.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000016.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000017.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000018.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000019.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000020.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000021.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000022.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000023.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-NECTAIRE/000024.jpg",
+        "text": "SAINT-NECTAIRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000000.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000001.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000002.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000003.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000004.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000005.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000006.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000007.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000008.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000009.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000010.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000011.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000012.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000013.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000014.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000015.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000016.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000017.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000018.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000019.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000020.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000021.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000022.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000023.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/POULIGNY_SAINT-_PIERRE/000024.jpg",
+        "text": "POULIGNY SAINT- PIERRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000000.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000001.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000002.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000003.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000004.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000005.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000006.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000007.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000008.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000009.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000010.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000011.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000012.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000013.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000014.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000015.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000016.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000017.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000018.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000019.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000020.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000021.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000022.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000023.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/ROQUEFORT/000024.jpg",
+        "text": "ROQUEFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000000.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000001.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000002.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000003.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000004.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000005.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000006.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000007.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000008.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000009.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000010.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000011.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000012.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000013.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000014.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000015.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000016.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000017.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000018.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000019.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000020.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000021.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000022.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000023.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/COMTE/000024.jpg",
+        "text": "COMTÉ"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000000.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000001.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000002.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000003.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000004.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000005.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000006.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000007.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000008.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000009.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000010.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000011.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000012.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000013.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000014.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000015.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000016.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000017.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000018.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000019.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000020.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000021.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000022.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000023.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHÈVRE/000024.jpg",
+        "text": "CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000000.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000001.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000002.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000003.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000004.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000005.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000006.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000007.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000008.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000009.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000010.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000011.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000012.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000013.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000014.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000015.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000016.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000017.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000018.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000019.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000020.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000021.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000022.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000023.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PECORINO/000024.jpg",
+        "text": "PECORINO"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000000.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000001.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000002.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000003.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000004.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000005.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000006.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000007.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000008.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000009.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000010.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000011.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000012.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000013.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000014.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000015.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000016.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000017.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000018.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000019.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000020.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000021.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000022.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000023.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/NEUFCHATEL/000024.jpg",
+        "text": "NEUFCHATEL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000000.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000001.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000002.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000003.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000004.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000005.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000006.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000007.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000008.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000009.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000010.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000011.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000012.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000013.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000014.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000015.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000016.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000017.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000018.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000019.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000020.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000021.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000022.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000023.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHEDDAR/000024.jpg",
+        "text": "CHEDDAR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000000.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000001.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000002.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000003.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000004.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000005.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000006.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000007.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000008.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000009.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000010.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000011.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000012.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000013.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000014.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000015.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000016.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000017.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000018.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000019.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000020.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000021.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000022.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000023.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BÛCHETTE_DE_CHÈVRE/000024.jpg",
+        "text": "BÛCHETTE DE CHÈVRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000000.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000001.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000002.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000003.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000004.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000005.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000006.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000007.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000008.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000009.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000010.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000011.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000012.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000013.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000014.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000015.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000016.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000017.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000018.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000019.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000020.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000021.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000022.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000023.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/PARMESAN/000024.jpg",
+        "text": "PARMESAN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000000.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000001.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000002.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000003.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000004.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000005.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000006.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000007.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000008.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000009.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000010.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000011.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000012.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000013.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000014.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000015.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000016.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000017.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000018.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000019.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000020.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000021.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000022.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000023.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SAINT-_FELICIEN/000024.jpg",
+        "text": "SAINT- FÉLICIEN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000000.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000001.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000002.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000003.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000004.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000005.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000006.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000007.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000008.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000009.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000010.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000011.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000012.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000013.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000014.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000015.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000016.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000017.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000018.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000019.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000020.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000021.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000022.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000023.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MONT_DOR/000024.jpg",
+        "text": "MONT D’OR"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000000.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000001.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000002.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000003.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000004.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000005.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000006.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000007.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000008.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000009.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000010.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000011.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000012.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000013.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000014.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000015.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000016.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000017.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000018.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000019.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000020.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000021.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000022.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000023.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/STILTON/000024.jpg",
+        "text": "STILTON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000000.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000001.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000002.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000003.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000004.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000005.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000006.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000007.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000008.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000009.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000010.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000011.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000012.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000013.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000014.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000015.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000016.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000017.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000018.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000019.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000020.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000021.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000022.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000023.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/SCARMOZA/000024.jpg",
+        "text": "SCARMOZA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000000.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000001.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000002.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000003.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000004.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000005.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000006.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000007.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000008.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000009.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000010.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000011.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000012.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000013.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000014.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000015.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000016.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000017.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000018.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000019.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000020.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000021.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000022.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000023.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CABECOU/000024.jpg",
+        "text": "CABECOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000000.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000001.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000002.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000003.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000004.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000005.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000006.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000007.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000008.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000009.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000010.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000011.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000012.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000013.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000014.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000015.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000016.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000017.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000018.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000019.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000020.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000021.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000022.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000023.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/BEAUFORT/000024.jpg",
+        "text": "BEAUFORT"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000000.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000001.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000002.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000003.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000004.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000005.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000006.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000007.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000008.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000009.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000010.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000011.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000012.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000013.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000014.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000015.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000016.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000017.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000018.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000019.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000020.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000021.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000022.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000023.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MUNSTER/000024.jpg",
+        "text": "MUNSTER"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000000.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000001.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000002.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000003.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000004.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000005.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000006.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000007.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000008.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000009.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000010.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000011.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000012.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000013.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000014.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000015.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000016.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000017.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000018.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000019.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000020.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000021.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000022.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000023.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/CHABICHOU/000024.jpg",
+        "text": "CHABICHOU"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000000.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000001.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000002.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000003.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000004.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000005.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000006.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000007.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000008.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000009.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000010.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000011.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000012.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000013.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000014.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000015.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000016.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000017.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000018.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000019.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000020.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000021.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000022.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000023.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TOMME_DE_VACHE/000024.jpg",
+        "text": "TOMME DE VACHE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000000.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000001.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000002.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000003.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000004.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000005.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000006.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000007.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000008.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000009.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000010.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000011.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000012.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000013.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000014.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000015.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000016.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000017.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000018.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000019.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000020.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000021.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000022.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000023.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/REBLOCHON/000024.jpg",
+        "text": "REBLOCHON"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000000.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000001.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000002.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000003.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000004.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000005.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000006.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000007.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000008.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000009.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000010.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000011.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000012.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000013.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000014.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000015.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000016.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000017.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000018.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000019.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000020.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000021.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000022.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000023.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/EMMENTAL/000024.jpg",
+        "text": "EMMENTAL"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000000.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000001.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000002.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000003.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000004.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000005.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000006.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000007.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000008.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000009.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000010.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000011.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000012.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000013.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000014.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000015.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000016.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000017.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000018.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000019.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000020.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000021.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000022.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000023.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FETA/000024.jpg",
+        "text": "FETA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000000.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000001.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000002.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000003.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000004.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000005.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000006.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000007.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000008.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000009.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000010.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000011.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000012.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000013.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000014.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000015.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000016.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000017.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000018.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000019.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000020.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000021.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000022.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000023.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/OSSAU-_IRATY/000024.jpg",
+        "text": "OSSAU- IRATY"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000000.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000001.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000002.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000003.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000004.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000005.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000006.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000007.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000008.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000009.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000010.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000011.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000012.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000013.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000014.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000015.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000016.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000017.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000018.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000019.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000020.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000021.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000022.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000023.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MIMOLETTE/000024.jpg",
+        "text": "MIMOLETTE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000000.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000001.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000002.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000003.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000004.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000005.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000006.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000007.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000008.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000009.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000010.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000011.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000012.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000013.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000014.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000015.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000016.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000017.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000018.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000019.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000020.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000021.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000022.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000023.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MAROILLES/000024.jpg",
+        "text": "MAROILLES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000000.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000001.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000002.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000003.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000004.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000005.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000006.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000007.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000008.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000009.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000010.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000011.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000012.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000013.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000014.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000015.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000016.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000017.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000018.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000019.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000020.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000021.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000022.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000023.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/GRUYÈRE/000024.jpg",
+        "text": "GRUYÈRE"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000000.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000001.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000002.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000003.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000004.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000005.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000006.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000007.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000008.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000009.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000010.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000011.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000012.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000013.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000014.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000015.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000016.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000017.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000018.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000019.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000020.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000021.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000022.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000023.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOTHAIS/000024.jpg",
+        "text": "MOTHAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000000.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000001.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000002.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000003.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000004.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000005.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000006.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000007.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000008.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000009.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000010.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000011.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000012.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000013.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000014.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000015.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000016.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000017.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000018.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000019.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000020.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000021.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000022.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000023.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/VACHERIN/000024.jpg",
+        "text": "VACHERIN"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000000.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000001.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000002.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000003.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000004.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000005.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000006.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000007.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000008.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000009.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000010.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000011.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000012.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000013.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000014.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000015.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000016.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000017.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000018.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000019.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000020.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000021.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000022.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000023.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/MOZZARELLA/000024.jpg",
+        "text": "MOZZARELLA"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000000.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000001.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000002.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000003.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000004.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000005.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000006.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000007.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000008.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000009.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000010.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000011.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000012.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000013.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000014.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000015.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000016.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000017.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000018.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000019.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000020.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000021.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000022.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000023.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/TÊTE_DE_MOINES/000024.jpg",
+        "text": "TÊTE DE MOINES"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000000.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000001.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000002.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000003.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000004.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000005.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000006.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000007.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000008.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000009.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000010.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000011.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000012.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000013.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000014.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000015.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000016.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000017.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000018.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000019.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000020.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000021.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000022.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000023.jpg",
+        "text": "FROMAGE FRAIS"
+    },
+    {
+        "image_file": "/users/eleves-b/2022/lucas.mebille/Documents/cheese_challenge/dataset/val/FROMAGE_FRAIS/000024.jpg",
+        "text": "FROMAGE FRAIS"
+    }
+]
