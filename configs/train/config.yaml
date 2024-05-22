@@ -1,10 +1,10 @@
 defaults:
   - model: dinov2base
-  - dataset: simple_prompts
+  - dataset: test_prompts
   - optim: adamw
   - loss_fn: cross_entropy
 
-epochs: 4
+epochs: 3
 
 datamodule:
   _target_: data.datamodule.DataModule
@@ -20,7 +20,7 @@ root_dir:  ${hydra:runtime.cwd}
 checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
 
 experiment_name: ${model.name}_${dataset.name}
-ocr_method: 'easyocr'  # To choose the ocr method
+ocr_method: 'easyocr' # To choose the ocr method
 comparison_method: 'fuzzywuzzy'  # or 'difflib'
 threshold_ocr: 0.8  # Threshold for the ocr method
 

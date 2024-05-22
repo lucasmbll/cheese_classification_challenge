@@ -4,9 +4,13 @@ import hydra
 from tqdm import tqdm
 import clip
 
+import warnings
+warnings.filterwarnings("ignore")
 
-@hydra.main(config_path="configs/train", config_name="config")
+
+@hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def train(cfg):
+    # logger = wandb.init(entity="lucas_mbll", project="challenge_cheese", name=cfg.experiment_name)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
     optimizer = hydra.utils.instantiate(cfg.optim, params=model.parameters())
@@ -20,7 +24,7 @@ def train(cfg):
 
     train_loader = datamodule.train_dataloader()
     val_loaders = datamodule.val_dataloader()
-    
+
     for epoch in tqdm(range(cfg.epochs)):
         model.train()
         epoch_loss = 0
@@ -48,6 +52,7 @@ def train(cfg):
             else:
                 preds = model(images)
                 loss = loss_fn(preds, labels)
+                # logger.log({"loss": loss.detach().cpu().numpy()})
                 optimizer.zero_grad()
                 loss.backward()
                 optimizer.step()
@@ -58,6 +63,14 @@ def train(cfg):
 
         epoch_loss /= num_samples
         epoch_acc = epoch_num_correct / num_samples
+        """logger.log(
+            {
+                "epoch": epoch,
+                "train_loss_epoch": epoch_loss,
+                "train_acc": epoch_acc,
+            }
+        )"""
+
 
         val_metrics = {}
         model.eval()
@@ -93,7 +106,7 @@ def train(cfg):
             epoch_acc = epoch_num_correct / num_samples
             val_metrics[f"{val_set_name}/loss"] = epoch_loss
             val_metrics[f"{val_set_name}/acc"] = epoch_acc
-            val_metrics[f"{val_set_name}/confusion_matrix"] = (
+            """val_metrics[f"{val_set_name}/confusion_matrix"] = (
                 wandb.plot.confusion_matrix(
                     y_true=y_true,
                     preds=y_pred,
@@ -102,7 +115,14 @@ def train(cfg):
                         for i in range(len(datamodule.idx_to_class))
                     ],
                 )
-            )
+            )"""
+            
+        """logger.log(
+            {
+                "epoch": epoch,
+                **val_metrics,
+            }
+        )"""
 
     torch.save(model.state_dict(), cfg.checkpoint_path)
 

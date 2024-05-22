@@ -1,10 +1,13 @@
 import hydra
 from torch.utils.data import Dataset, DataLoader
+from torchvision.transforms.functional import to_pil_image
 import os
 from PIL import Image
 import pandas as pd
 import torch
 import ocr
+import logging
+logging.getLogger().setLevel(logging.ERROR)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -28,7 +31,7 @@ class TestDataset(Dataset):
         return len(self.images_list)
 
 
-@hydra.main(config_path="configs/train", config_name="config")
+@hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def create_submission(cfg):
     test_loader = DataLoader(
         TestDataset(
@@ -56,11 +59,16 @@ def create_submission(cfg):
         preds = preds.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
         for i, image in enumerate(images):
-            lab = ocr.classify_image(image, reader, class_names, [], cfg.threshold_ocr, 0.05, cfg.ocr_method, cfg.comparison_method)
+            # Convert PyTorch tensor to PIL image
+            im = to_pil_image(image.to('cpu'))
+            # Convert PIL image to RGB mode
+            im = im.convert('RGB')
+            lab = ocr.classify_image(im, reader, [])
             if lab: 
+                print(preds[i], lab)
                 preds[i] = lab
                 print(f"OCR detected label: {lab} for image: {image_names[i]}")
-                
+
         submission = pd.concat(
             [
                 submission,

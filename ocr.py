@@ -46,6 +46,10 @@ def check_cheese_name(detected_text, cheese_names, method='difflib', threshold=0
                 matches.append((text, match[0]))
         elif method == 'fuzzywuzzy':
             match, score = process.extractOne(text, cheese_names, scorer=fuzz.ratio)
+            for word in text.split():
+                sub_match, sub_score = process.extractOne(word, cheese_names, scorer=fuzz.ratio)
+                if (sub_score > 0.5 * 100 and sub_match != "FROMAGE" and sub_match != "CHÈVRE"):
+                    matches.append((word, sub_match, sub_score))
             if score >= 0.5 * 100:  # fuzzywuzzy scores are out of 100
                 match = decode_strange_chars(match)
                 matches.append((text, match, score))
@@ -71,51 +75,62 @@ def initialize_ocr(ocr_method):
         raise ValueError(f"Unsupported OCR method: {ocr_method}")
 
 def perform_ocr(ocr, img, ocr_method):
-    if ocr_method == 'easyocr':
-        result = ocr.readtext(np.array(img))
-        detected_text = [line[1] for line in result]
-    elif ocr_method == 'tesseract':
-        detected_text = pytesseract.image_to_string(img, lang='fra').split('\n')
-        detected_text = [text.strip() for text in detected_text if text.strip()]
-    return detected_text
 
-def classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_names, threshold_base=0.8, increment=0.05, f=None):
+    if ocr_method == 'tesseract':
+        det_text = pytesseract.image_to_string(img, lang='fra').split('\n')
+        det_text = [text.strip() for text in det_text if text.strip()]
+    else:
+        result = ocr.readtext(np.array(img))
+        det_text = [line[1] for line in result]
+    return det_text
+
+def classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_names, threshold_base=0.8, increment=0.05, f=None, debug=False):
     label = None
     matches = check_cheese_name(detected_text, cheese_names, method='fuzzywuzzy', threshold=threshold_base)
     if not matches: return label
     matches.sort(key=lambda x: x[2], reverse=True)
+    if debug: print("DEBUG : ", matches)
     if f:
         f.write("DEBUG : ", matches)     
     if (matches[0][1] == "FROMAGE FRAIS" or matches[0][1] == "FROMAGE BLANC"):
         threshold = min(threshold_base + increment*2, 0.95)
-        if (len(matches)>1 and matches[1][1] != "FROMAGE BLANC" and matches[1][1]!= "FROMAGE FRAIS"):
-            if (matches[1][2] > threshold_base * 100): 
-                matches[0], matches[1] = matches[1], matches[0]
-                threshold = threshold_base
+        if (len(matches)>1):
+            for i, match in enumerate(matches):
+                if (match[1] != "FROMAGE FRAIS" and match[1] != "FROMAGE BLANC" and match[2] > threshold_base * 99):
+                    matches[0], matches[i] = matches[i], matches[0]
+                    threshold = threshold_base
+                    break
     if (matches[0][1] in high_treshold_cheese_names):
+        print(threshold_base, increment)
         threshold = threshold_base + increment
     else:
         threshold = threshold_base
+    if (debug): print("NEW DEBUG : ", matches, " with threshold ", threshold)
 
     if (matches[0][2] >= threshold * 100):
         if (matches[0][1] == "CHÈVRE" and len(matches)>1):
-            if ((matches[1][1]  == "BÛCHE" or matches[1][1]  == "BÛCHETTE DE CHÈVRE"
+            if ((matches[1][1]  == "BÛCHE" or matches[1][1]  == "BÛCHETTE DE CHÈVRE" or matches[1][1]  == "BUCHE"
                 or matches[1][1]== "BÛCHE DE CHÈVRE") and matches[1][2] >= threshold_base * 100):  
                 label = "BÛCHETTE DE CHÈVRE"
             else:  label = matches[0][1]
         elif (matches[0][1] =='PARMIGIANO'): label = "PARMESAN"
         elif (matches[0][1] =='BERTHAUT'): label = "EPOISSES"
+        elif (matches[1][1]  == "BÛCHE" or matches[1][1]  == "BUCHE" or matches[1][1]== "BÛCHE DE CHÈVRE"):
+            label = "BÛCHETTE DE CHÈVRE"
+        elif (matches[0][1] == "FROMAGE BLANC"): label = "FROMAGE FRAIS"
         else: label = matches[0][1]
 
     return label
 
-def classify_image(image, ocr, cheese_names, high_treshold_cheese_names, threshold_base=0.8, increment=0.05, ocr_method='easyocr', comparison_method='fuzzywuzzy'):
-    detected_text = perform_ocr(ocr, image, ocr_method)
+def classify_image(image_, ocr, high_treshold_cheese_names, threshold_base=0.8, increment=0.05, ocr_method='easyocr', comparison_method='fuzzywuzzy', f=None):
+    
+    detected_text = perform_ocr(ocr, image_, ocr_method)
+    cheese_names = load_cheese_names('C:/Users/adib4/OneDrive/Documents/Travail/X/MODAL DL/cheese_classification_challenge/cheese_ocr.txt')
     label = classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_names, threshold_base=threshold_base, increment=increment, f=f)
     
     return label
 
-@hydra.main(config_path="configs/train", config_name="config")
+@hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def test_ocr(cfg):
     cheese_names = load_cheese_names('C:/Users/adib4/OneDrive/Documents/Travail/X/MODAL DL/cheese_classification_challenge/list_of_cheese.txt')
     ocr_images_dir = 'C:/Users/adib4/OneDrive/Documents/Travail/X/MODAL DL/cheese_classification_challenge/ocr_images'
@@ -198,24 +213,34 @@ def save_plots(results):
     output_dir = "plots"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    results = np.round(results, 2)
+    for result in results:
+        np.round(result[0], 2)
+        np.round(result[3], 2)
     plt.figure()
-    plt.plot(results[:, 0], results[:, 2], label="Accuracy")
+    plt.plot(results[:, 0], results[:, 3], label="Accuracy")
     plt.xlabel("Threshold")
     plt.ylabel("Accuracy (%)")
-    plt.title(f"Accuracy vs Threshold for {ocr_method} and {comparison_method}")
+    plt.title(f"Accuracy vs Threshold for easyocr/fuzzywuzzy")
     plt.legend()
-    plt.savefig(os.path.join(output_dir, "accuracy_plot.png"))
+    plt.savefig(os.path.join(output_dir, "accuracy_plot_corrected.png"))
+
+    plt.figure()
+    plt.plot(results[:, 0], results[:, 1], label="Nb guesses")
+    plt.plot(results[:, 0], results[:, 2], label="Corr guesses")
+    plt.xlabel("Threshold")
+    plt.ylabel("Number of")
+    plt.title(f"Total and correct guesses for easyocr/fuzzywuzzy")
+    plt.legend()
+    plt.savefig(os.path.join(output_dir, "guesses_plot_corrected.png"))
 
 
-
-if __name__ == "__main__":
+def test_efficiency(low_threshold=0.6, high_threshold=0.95, increment=0.05):
     f = open("ocr_errors.txt", "w")
     f.write("OCR Errors for easyocr/fuzzywuzzy classification\n\n")
-    cheese_names = load_cheese_names('list_of_cheese.txt')  # Assuming the file is in the same directory
+    cheese_names = load_cheese_names('cheese_ocr.txt')  # Assuming the file is in the same directory
     simple_names = []
     ocr_images_dir = 'ocr_images'
-    thresholds = np.arange(0.6, 0.95, 0.05)
+    thresholds = np.arange(low_threshold, high_threshold, increment)
     ocr_method = 'easyocr'
     ocr = initialize_ocr(ocr_method)
     comparison_method = 'fuzzywuzzy'
@@ -249,10 +274,25 @@ if __name__ == "__main__":
                             f.write(f"Error for Image: {image_name}, Label: {cheese_label}, Detected: {label}\n")
 
         accuracy = correct_guesses / total_guesses * 100 if total_guesses > 0 else 0
-        results.append(threshold, total_guesses, correct_guesses, accuracy)
+        results.append((threshold, total_guesses, correct_guesses, accuracy))
 
         print(f"OCR Method: {ocr_method}, Comparison Method: {comparison_method}, Threshold: {threshold:.2f}, Total Guesses: {total_guesses}, Correct Guesses: {correct_guesses}, Accuracy: {accuracy:.2f}%")
 
     print(results)
     # Save results in plots
     save_plots(np.array(results))
+
+if __name__ == "__main__":
+    r"""path = r"C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\ocr_images"
+    test_image_path = r"\BÛCHETTE DE CHÈVRE\000022.jpg"
+    img_path = path + test_image_path
+    print(img_path)
+    image = Image.open(img_path).convert('RGB')
+    ocr = initialize_ocr('easyocr')
+    cheese_names = load_cheese_names('C:/Users/adib4/OneDrive/Documents/Travail/X/MODAL DL/cheese_classification_challenge/cheese_ocr.txt')
+    detected_text = perform_ocr(ocr, image, 'easyocr')
+    print(detected_text)
+    label = classify_results_fuzzy(detected_text, cheese_names, [], threshold_base=0.75, increment=0.05, debug=True)
+    print(label)"""
+
+    test_efficiency(0.6, 0.95, 0.05)
