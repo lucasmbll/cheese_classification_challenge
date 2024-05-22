@@ -4,6 +4,7 @@ import os
 from PIL import Image
 import pandas as pd
 import torch
+import ocr
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -43,6 +44,7 @@ def create_submission(cfg):
     print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
     model.load_state_dict(checkpoint)
     class_names = sorted(os.listdir(cfg.dataset.train_path))
+    reader = ocr.initialize_ocr(cfg.ocr_method)
 
     # Create submission.csv
     submission = pd.DataFrame(columns=["id", "label"])
@@ -53,6 +55,12 @@ def create_submission(cfg):
         preds = model(images)
         preds = preds.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
+        for i, image in enumerate(images):
+            lab = ocr.classify_image(image, reader, class_names, [], cfg.threshold_ocr, 0.05, cfg.ocr_method, cfg.comparison_method)
+            if lab: 
+                preds[i] = lab
+                print(f"OCR detected label: {lab} for image: {image_names[i]}")
+                
         submission = pd.concat(
             [
                 submission,

@@ -22,6 +22,7 @@ checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
 experiment_name: ${model.name}_${dataset.name}
 ocr_method: 'easyocr'  # To choose the ocr method
 comparison_method: 'fuzzywuzzy'  # or 'difflib'
+threshold_ocr: 0.8  # Threshold for the ocr method
 
 hydra:
   run:

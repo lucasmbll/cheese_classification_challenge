@@ -1,0 +1,3 @@
+Results for easyocr run with fuzzywuzzy, threshold from 0.6 to 0.9 on full val dataset : 
+
+[('easyocr', 'fuzzywuzzy', 0.6, 195, 86, 44.1025641025641), ('easyocr', 'fuzzywuzzy', 0.65, 161, 85, 52.79503105590062), ('easyocr', 'fuzzywuzzy', 0.7000000000000001, 127, 79, 62.20472440944882), ('easyocr', 'fuzzywuzzy', 0.7500000000000001, 96, 70, 72.91666666666666), ('easyocr', 'fuzzywuzzy', 0.8000000000000002, 76, 66, 86.8421052631579), ('easyocr', 'fuzzywuzzy', 0.8500000000000002, 66, 61, 92.42424242424242), ('easyocr', 'fuzzywuzzy', 0.9000000000000002, 51, 50, 98.0392156862745)]

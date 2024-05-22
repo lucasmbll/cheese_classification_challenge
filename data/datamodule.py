@@ -1,7 +1,7 @@
 from torch.utils.data import DataLoader
 from torchvision.datasets import ImageFolder
 from hydra.utils import instantiate
-from clipdataset import ClipDataset
+import clipdataset
 import torch
 
 
@@ -18,7 +18,7 @@ class DataModule:
     ):
         print(train_dataset_path)
         if clip:
-            self.dataset = ClipDataset(train_dataset_path, preprocess=train_transform)
+            self.dataset = clipdataset.ClipDataset(train_dataset_path, preprocess=train_transform)
         else:
             self.dataset = ImageFolder(train_dataset_path, transform=train_transform)
         self.train_dataset, self.val_dataset = torch.utils.data.random_split(
@@ -31,7 +31,7 @@ class DataModule:
         )
         self.val_dataset.transform = val_transform
         if clip:
-            self.real_images_val_dataset = ClipDataset(
+            self.real_images_val_dataset = clipdataset.ClipDataset(
                 real_images_val_path, preprocess=val_transform
             )
         else:

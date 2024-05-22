@@ -285,3 +285,6 @@ ppocr_img/table/result_text.jpg
 ppocr_img/table/table.jpg
 ppocr_img/table/tableocr_pipeline.jpg
 ppocr_img/table/tableocr_pipeline_en.jpg
+__MACOSX/ppocr_img/._.DS_Store
+__MACOSX/ppocr_img/._imgs_words
+__MACOSX/ppocr_img/imgs_words/._.DS_Store
