@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the base directory
-baseDir=/Data/mellah.adib/cheese_classification_challenge"
+baseDir="/Data/mellah.adib/cheese_classification_challenge"
 
 # Define the list of cheese names
 cheeseNames=(
