@@ -2,3 +2,23 @@ preload libbz2 : LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6
 utiliser cache spécial pour pas encombre mémoire : export HF_HOME=/Data/mellah.adib/huggingface
 export TRANSFORMERS_CACHE=/Data/mellah.adib/huggingface
 pas encore testé : export NUMEXPR_MAX_THREADS=15
+
+
+
+DreamBooth :
+LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6 accelerate launch train_dreambooth_lora.py   --pretrained_model_name_or_path="stabilityai/sdxl-turbo"   --output_dir=$OUTPUT_DIR   --checkpointing_steps=50   --mixed_precision="bf16"   --with_prior_preservation   --prior_loss_weight=1.0   --class_data_dir=$CLASS_DATA_DIR   --class_prompt="a photo of a Beaufort cheese"   --use_8bit_adam   --gradient_checkpointing   --instance_data_dir=$INSTANCE_DIR   --instance_prompt="a photo of a Beaufort cheese"
+
+LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6 accelerate launch train_dreambooth.py \
+  --pretrained_model_name_or_path="stabilityai/sdxl-turbo" \
+  --output_dir=$OUTPUT_DIR \
+  --checkpointing_steps=50 \
+  --mixed_precision="bf16" \
+  --snr_gamma=5.0 \
+  --with_prior_preservation \
+  --prior_loss_weight=1.0 \
+  --class_data_dir=$CLASS_DATA_DIR \
+  --class_prompt="a photo of a Beaufort cheese" \
+  --use_8bit_adam \
+  --gradient_checkpointing \
+  --instance_data_dir=$INSTANCE_DIR \
+  --instance_prompt="a photo of a Beaufort cheese"
