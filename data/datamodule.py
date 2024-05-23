@@ -1,7 +1,7 @@
 from torch.utils.data import DataLoader
 from torchvision.datasets import ImageFolder
 from hydra.utils import instantiate
-#import clipdataset
+import clipdataset
 import torch
 
 
@@ -13,14 +13,10 @@ class DataModule:
         train_transform,
         val_transform,
         batch_size,
-        num_workers,
-        clip=False
+        num_workers
     ):
         print(train_dataset_path)
-        if clip:
-            self.dataset = clipdataset.ClipDataset(train_dataset_path, preprocess=train_transform)
-        else:
-            self.dataset = ImageFolder(train_dataset_path, transform=train_transform)
+        self.dataset = ImageFolder(train_dataset_path, transform=train_transform)
         self.train_dataset, self.val_dataset = torch.utils.data.random_split(
             self.dataset,
             [
@@ -30,14 +26,9 @@ class DataModule:
             generator=torch.Generator().manual_seed(3407),
         )
         self.val_dataset.transform = val_transform
-        if clip:
-            self.real_images_val_dataset = clipdataset.ClipDataset(
-                real_images_val_path, preprocess=val_transform
-            )
-        else:
-            self.real_images_val_dataset = ImageFolder(
-                real_images_val_path, transform=val_transform
-            )
+        self.real_images_val_dataset = ImageFolder(
+            real_images_val_path, transform=val_transform
+        )
         self.batch_size = batch_size
         self.num_workers = num_workers
         self.idx_to_class = {v: k for k, v in self.dataset.class_to_idx.items()}

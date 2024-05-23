@@ -17,10 +17,6 @@ def train(cfg):
     loss_fn = hydra.utils.instantiate(cfg.loss_fn)
     loss_txt = hydra.utils.instantiate(cfg.loss_fn)    # for openclip
     datamodule = hydra.utils.instantiate(cfg.datamodule)
-    if cfg.model.instance._target_ == "models.openclip.OpenClipTest":
-        datamodule = hydra.utils.instantiate(cfg.datamodule, clip=True)
-        datamodule.train_transform = model.preprocesstrain
-        datamodule.val_transform = model.preprocessval
 
     train_loader = datamodule.train_dataloader()
     val_loaders = datamodule.val_dataloader()
@@ -34,28 +30,12 @@ def train(cfg):
             images, labels = batch
             images = images.to(device)
             labels = labels.to(device)
-            if (cfg.model.instance._target_ == "models.openclip.OpenClipTest"):
-                # Convert labels to a list of strings
-                texts = [datamodule.idx_to_class[label.item()] for label in labels]
-                # Convert texts to tensor
-                texts = model.tokenizer(texts).to(device)
-                logits_per_image, logits_per_text = model(images, texts)
-                ground_truth = torch.arange(len(images), dtype=torch.long, device=device)
-                loss = (loss_fn(logits_per_image, ground_truth) + loss_txt(logits_per_text, ground_truth)) / 2
-                loss.backward()
-                if device == "cpu":
-                    optimizer.step()
-                else:
-                    clip.convert_models_to_fp32(model)
-                    optimizer.step()
-                    clip.model.convert_weights(model)
-            else:
-                preds = model(images)
-                loss = loss_fn(preds, labels)
-                # logger.log({"loss": loss.detach().cpu().numpy()})
-                optimizer.zero_grad()
-                loss.backward()
-                optimizer.step()
+            preds = model(images)
+            loss = loss_fn(preds, labels)
+            # logger.log({"loss": loss.detach().cpu().numpy()})
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
 
             epoch_loss += loss.detach().cpu().numpy() * len(images)
             epoch_num_correct += (preds.argmax(1) == labels).sum().detach().cpu().numpy()

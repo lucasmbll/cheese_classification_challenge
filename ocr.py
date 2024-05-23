@@ -125,7 +125,7 @@ def classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_nam
 def classify_image(image_, ocr, high_treshold_cheese_names, threshold_base=0.8, increment=0.05, ocr_method='easyocr', comparison_method='fuzzywuzzy', f=None):
     
     detected_text = perform_ocr(ocr, image_, ocr_method)
-    cheese_names = load_cheese_names('C:/Users/adib4/OneDrive/Documents/Travail/X/MODAL DL/cheese_classification_challenge/cheese_ocr.txt')
+    cheese_names = load_cheese_names('/Data/mellah.adib/cheese_classification_challenge/cheese_ocr.txt')
     label = classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_names, threshold_base=threshold_base, increment=increment, f=f)
     
     return label

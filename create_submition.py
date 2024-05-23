@@ -43,7 +43,9 @@ def create_submission(cfg):
     )
     # Load model and checkpoint
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
-    checkpoint = torch.load(cfg.checkpoint_path)
+    path = "/Data/mellah.adib/cheese_classification_challenge/checkpoints/DINOV2_gpt_prompts.pt"
+    checkpoint = torch.load(path)
+    #checkpoint = torch.load(cfg.checkpoint_path)
     print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
     model.load_state_dict(checkpoint)
     class_names = sorted(os.listdir(cfg.dataset.train_path))
@@ -58,7 +60,7 @@ def create_submission(cfg):
         preds = model(images)
         preds = preds.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
-        for i, image in enumerate(images):
+        """for i, image in enumerate(images):
             # Convert PyTorch tensor to PIL image
             im = to_pil_image(image.to('cpu'))
             # Convert PIL image to RGB mode
@@ -67,7 +69,7 @@ def create_submission(cfg):
             if lab: 
                 print(preds[i], lab)
                 preds[i] = lab
-                print(f"OCR detected label: {lab} for image: {image_names[i]}")
+                print(f"OCR detected label: {lab} for image: {image_names[i]}")"""
 
         submission = pd.concat(
             [
