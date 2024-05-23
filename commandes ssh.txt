@@ -36,3 +36,6 @@ LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6 accelerate launch test_dr
 
 
 
+sur windows : 
+accelerate launch ./diffusers/examples/dreambooth/train_dreambooth_lora.py --pretrained_model_name_or_path="runwayml/stable-diffusion-v1-5"  --output_dir=$env:OUTPUT_DIR   --checkpointing_steps=50   --mixed_precision="fp16"    --instance_data_dir=$env:INSTANCE_DIR   --instance_prompt="a photo of a Beaufort cheese"   --use_8bit_adam   --gradient_checkpointing
+
