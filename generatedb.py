@@ -104,7 +104,7 @@ def generate_lora(batch_size=1, output_dir="dataset/train/dreambooth"):
 
 
 class DBSd15Generator2:
-    def __init__(self, cheese='BEAUFORT', use_cpu_offload=False):
+    def __init__(self, cheese, use_cpu_offload=False):
         # Load the base Stable Diffusion model
         path = f"./db_models/{cheese}"
         self.pipe = DiffusionPipeline.from_pretrained(path, torch_dtype=torch.float16, use_safetensors=True).to("cuda")
@@ -155,7 +155,7 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
                     while not good:
                         print("Generating images : not good atm")
                         images = pipe.generate(batch)
-                        good = score_zeroshot(images[0], label, cheese_names)
+                        good = score_zeroshot(images[0], label, cheese_names, 0.1)
                     dataset_generator.save_images(images, label, image_id_0)
                     image_id_0 += len(images)
                     pbar.update(1)

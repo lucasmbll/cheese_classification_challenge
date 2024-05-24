@@ -204,6 +204,7 @@ class GptPrompts2(DatasetGenerator):
 
     def create_prompts(self, labels_names):
         prompts = {}
+        print(labels_names)
         for i, label in enumerate(labels_names):
             prompts[label] = []
             for _ in range(self.num_images_per_label):
