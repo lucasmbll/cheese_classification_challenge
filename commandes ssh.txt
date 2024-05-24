@@ -2,6 +2,7 @@ preload libbz2 : LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6
 utiliser cache spécial pour pas encombre mémoire : export HF_HOME=/Data/mellah.adib/huggingface
 export TRANSFORMERS_CACHE=/Data/mellah.adib/huggingface
 pas encore testé : export NUMEXPR_MAX_THREADS=15
+copier un dossier : scp -r adib.mellah@NEOTINEA.polytechnique.fr:/Data/mellah.adib/cheese_classification_challenge/dataset/train/dreambooth2/RACLETTE "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\dreambooth_simple_prompts"
 
 
 
