@@ -8,6 +8,7 @@ import data.dataset_generators.genAdib
 from PIL import Image
 from tqdm import tqdm
 import open_clip
+import os
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -160,21 +161,52 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
                     pbar.update(1)
                 pbar.close()
 
-def test_checkpoint(cheese='BEAUFORT', num_inference_steps=50, guidance_scale=7.5):
+
+def test_checkpoint(cheese, num_inference_steps=50, guidance_scale=7.5, nb_check=200):
     path = f"./db_models/{cheese}"
-    unet = UNet2DConditionModel.from_pretrained(path+"/checkpoint-200/unet")
+    unet = UNet2DConditionModel.from_pretrained(path+f"/checkpoint-{nb_check}/unet")
 
     pipeline = DiffusionPipeline.from_pretrained(
         "runwayml/stable-diffusion-v1-5", unet=unet, dtype=torch.float16,
     ).to(device)
+    
 
     image = pipeline("A photo of a {cheese}", num_inference_steps=num_inference_steps, guidance_scale=guidance_scale).images[0]
-    image.save("testcheckpoint.png")
 
+    # Define the directory and file name
+    output_dir = os.path.join("test_db_param", cheese)
+    os.makedirs(output_dir, exist_ok=True)
+    file_name = f"{guidance_scale}_{nb_check}_{num_inference_steps}.png"
+    output_path = os.path.join(output_dir, file_name)
+    # Save the image
+    image.save(output_path)
+
+def test_model(cheese, num_inference_steps=50, guidance_scale=7.5):
+    # Load the model
+    path = f"./db_models/{cheese}"
+    pipeline = DiffusionPipeline.from_pretrained(path, torch_dtype=torch.float16, use_safetensors=True).to("cuda")
+
+    # Generate the image
+    image = pipeline(f"A photo of a {cheese}", num_inference_steps=num_inference_steps, guidance_scale=guidance_scale).images[0]
+
+    # Define the directory and file name
+    output_dir = os.path.join("test_db_param", cheese)
+    os.makedirs(output_dir, exist_ok=True)
+    file_name = f"{guidance_scale}_model_{num_inference_steps}.png"
+    output_path = os.path.join(output_dir, file_name)
+
+    # Save the image
+    image.save(output_path)
 
 
 if __name__ == "__main__":
-    test_checkpoint()
+    for guid in range(9, 12, 1):
+        for num_inference_steps in range(20, 61, 10):
+            # test_checkpoint("MOZZARELLA", num_inference_steps, guid, 300)
+            test_model("BRIE DE MELUN", num_inference_steps, guid)
+
+
+    
 
 
 
