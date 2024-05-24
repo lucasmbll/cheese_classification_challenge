@@ -104,7 +104,7 @@ def generate_lora(batch_size=1, output_dir="dataset/train/dreambooth"):
 
 
 class DBSd15Generator2:
-    def __init__(self, cheese, use_cpu_offload=False):
+    def __init__(self, cheese='CAMEMBERT', use_cpu_offload=False):
         # Load the base Stable Diffusion model
         path = f"./db_models/{cheese}"
         self.pipe = DiffusionPipeline.from_pretrained(path, torch_dtype=torch.float16, use_safetensors=True).to("cuda")
