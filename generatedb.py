@@ -135,7 +135,8 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
         cheese_names = file.read().splitlines()
 
     # Initialize your dataset generator
-    dataset_generator = data.dataset_generators.genAdib.GptPrompts2(DBSd15Generator2(), batch_size=batch_size, output_dir=output_dir, num_images_per_label=10)
+    dataset_generator = data.dataset_generators.genAdib.GptPrompts2(DBSd15Generator2(), 
+                                                                    batch_size=batch_size, output_dir=output_dir, num_images_per_label=100)
     # Create prompts for each cheese
     labels_prompts = dataset_generator.create_prompts(cheese_names)
 
@@ -152,10 +153,14 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
                 for i in range(0, num_images_per_prompt, batch_size):
                     batch = prompt[i : i + batch_size]
                     good = False
+                    step=0
                     while not good:
-                        print("Generating images : not good atm")
+                        # print("Generating images : not good atm")
                         images = pipe.generate(batch)
                         good = score_zeroshot(images[0], label, cheese_names, 0.1)
+                        step+=1
+                        if step>5:
+                            break
                     dataset_generator.save_images(images, label, image_id_0)
                     image_id_0 += len(images)
                     pbar.update(1)
