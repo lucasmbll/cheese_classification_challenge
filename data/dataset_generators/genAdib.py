@@ -1,5 +1,5 @@
 from .base import DatasetGenerator
-
+import random
 
 class firstGen(DatasetGenerator):
     def __init__(
@@ -118,10 +118,9 @@ class GptPrompts(DatasetGenerator):
     def create_prompts(self, labels_names):
         prompts = {}
         for i, label in enumerate(labels_names):
-            if (i!=35): continue
             prompts[label] = []
             descriptions = self.generate_prompt_description()
-            for elt in descriptions[13:]:
+            for elt in descriptions:
                 prompt_description = elt.format(label=label, desc=self.lines[i])
                 # print(prompt_description)
                 prompts[label].append(
@@ -180,3 +179,41 @@ class GptPrompts(DatasetGenerator):
             "An image of a {label} cheese {desc} accompanied by a variety of crackers"
         ]
         return descriptions
+
+
+
+class GptPrompts2(DatasetGenerator):
+    def __init__(
+        self,
+        generator,
+        batch_size=1,
+        output_dir="dataset/train",
+        num_images_per_label=100,
+        view_file = "./image_view.txt",
+        context_file = "./cheese_context.txt"
+    ):
+        super().__init__(generator, batch_size, output_dir)
+        self.num_images_per_label = num_images_per_label
+        self.views = self.read_file(view_file)
+        self.contexts = self.read_file(context_file)
+
+    def read_file(self, filename):
+        with open(filename, "r") as file:
+            lines = file.readlines()
+            return [line.strip() for line in lines]
+
+    def create_prompts(self, labels_names):
+        prompts = {}
+        for i, label in enumerate(labels_names):
+            prompts[label] = []
+            for _ in range(self.num_images_per_label):
+                view = random.choice(self.views)
+                context = random.choice(self.contexts)
+                prompt_description = f"A photo of a {label} with a {view} {context}"
+                prompts[label].append(
+                    {
+                        "prompt": prompt_description,
+                        "num_images": 1
+                    }
+                )
+        return prompts
