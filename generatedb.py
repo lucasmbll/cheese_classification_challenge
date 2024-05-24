@@ -135,7 +135,7 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
         cheese_names = file.read().splitlines()
 
     # Initialize your dataset generator
-    dataset_generator = data.dataset_generators.genAdib.GptPrompts2(batch_size=batch_size, output_dir=output_dir, num_images_per_label=10)
+    dataset_generator = data.dataset_generators.genAdib.GptPrompts2(DBSd15Generator2(), batch_size=batch_size, output_dir=output_dir, num_images_per_label=10)
     # Create prompts for each cheese
     labels_prompts = dataset_generator.create_prompts(cheese_names)
 
