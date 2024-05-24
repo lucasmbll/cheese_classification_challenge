@@ -200,10 +200,12 @@ def test_model(cheese, num_inference_steps=50, guidance_scale=7.5):
 
 
 if __name__ == "__main__":
-    for guid in range(9, 12, 1):
+    """for guid in range(9, 12, 1):
         for num_inference_steps in range(20, 61, 10):
             # test_checkpoint("MOZZARELLA", num_inference_steps, guid, 300)
-            test_model("BRIE DE MELUN", num_inference_steps, guid)
+            test_model("BRIE DE MELUN", num_inference_steps, guid)"""
+    
+    generate_images()
 
 
     
