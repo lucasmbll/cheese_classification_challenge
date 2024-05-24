@@ -115,8 +115,8 @@ class DBSd15Generator2:
         self.pipe.set_progress_bar_config(disable=True)
         if use_cpu_offload:
             self.pipe.enable_sequential_cpu_offload()
-        self.num_inference_steps = 50
-        self.guidance_scale = 10
+        self.num_inference_steps = 60
+        self.guidance_scale = 8
 
     def generate(self, prompts):
         with torch.autocast(device):
