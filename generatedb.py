@@ -115,7 +115,7 @@ class DBSd15Generator2:
         self.pipe.set_progress_bar_config(disable=True)
         if use_cpu_offload:
             self.pipe.enable_sequential_cpu_offload()
-        self.num_inference_steps = 40
+        self.num_inference_steps = 30
         self.guidance_scale = 10
 
     def generate(self, prompts):
@@ -136,7 +136,7 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
 
     # Initialize your dataset generator
     dataset_generator = data.dataset_generators.genAdib.GptPrompts2(DBSd15Generator2(), 
-                                                                    batch_size=batch_size, output_dir=output_dir, num_images_per_label=100)
+                                                                    batch_size=batch_size, output_dir=output_dir, num_images_per_label=50)
     # Create prompts for each cheese
     labels_prompts = dataset_generator.create_prompts(cheese_names)
 
@@ -159,7 +159,8 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
                         images = pipe.generate(batch)
                         good = score_zeroshot(images[0], label, cheese_names, 0.1)
                         step+=1
-                        if step>5:
+                        print(step)
+                        if step>8:
                             break
                     dataset_generator.save_images(images, label, image_id_0)
                     image_id_0 += len(images)

@@ -210,7 +210,7 @@ class GptPrompts2(DatasetGenerator):
             for _ in range(self.num_images_per_label):
                 view = random.choice(self.views)
                 context = random.choice(self.contexts)
-                prompt_description = f"A photo with a {view} of a {label} cheese {context}"
+                prompt_description = f"A photo of a {label} cheese {view}."
                 prompts[label].append(
                     {
                         "prompt": prompt_description,
