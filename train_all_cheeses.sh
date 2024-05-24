@@ -5,35 +5,6 @@ baseDir="/Data/mellah.adib/cheese_classification_challenge"
 
 # Define the list of cheese names
 cheeseNames=(
-    "BRIE DE MELUN"
-    "CAMEMBERT"
-    "EPOISSES"
-    "FOURME D’AMBERT"
-    "RACLETTE"
-    "MORBIER"
-    "SAINT-NECTAIRE"
-    "POULIGNY SAINT- PIERRE"
-    "ROQUEFORT"
-    "COMTÉ"
-    "CHÈVRE"
-    "PECORINO"
-    "NEUFCHATEL"
-    "CHEDDAR"
-    "BÛCHETTE DE CHÈVRE"
-    "PARMESAN"
-    "SAINT- FÉLICIEN"
-    "MONT D’OR"
-    "STILTON"
-    "SCARMOZA"
-    "CABECOU"
-    "BEAUFORT"
-    "MUNSTER"
-    "CHABICHOU"
-    "TOMME DE VACHE"
-    "REBLOCHON"
-    "EMMENTAL"
-    "FETA"
-    "OSSAU- IRATY"
     "MIMOLETTE"
     "MAROILLES"
     "GRUYÈRE"
@@ -43,6 +14,8 @@ cheeseNames=(
     "TÊTE DE MOINES"
     "FROMAGE FRAIS"
 )
+
+ 
 
 # Iterate over each cheese in the list
 for cheeseName in "${cheeseNames[@]}"; do
@@ -57,7 +30,8 @@ for cheeseName in "${cheeseNames[@]}"; do
     fi
 
     # Construct the command
-    command="accelerate launch '$baseDir/diffusers/examples/dreambooth/train_dreambooth_lora.py' --pretrained_model_name_or_path='runwayml/stable-diffusion-v1-5' --output_dir='$outputDir' --checkpointing_steps=50 --mixed_precision='fp16' --instance_data_dir='$instanceDir' --instance_prompt='a photo of a $cheeseName cheese' --use_8bit_adam --gradient_checkpointing --with_prior_preservation --prior_loss_weight=1.0 --class_data_dir='$classDataDir' --class_prompt='a photo of a $cheeseName cheese'"
+    # command="accelerate launch '$baseDir/diffusers/examples/dreambooth/train_dreambooth_lora.py' --pretrained_model_name_or_path='runwayml/stable-diffusion-v1-5' --output_dir='$outputDir' --checkpointing_steps=50 --mixed_precision='fp16' --instance_data_dir='$instanceDir' --instance_prompt='a photo of a $cheeseName cheese' --use_8bit_adam --gradient_checkpointing --with_prior_preservation --prior_loss_weight=1.0 --class_data_dir='$classDataDir' --class_prompt='a photo of a $cheeseName cheese'"
+    command="accelerate launch '$baseDir/diffusers/examples/dreambooth/train_dreambooth_lora.py' --pretrained_model_name_or_path='runwayml/stable-diffusion-v1-5' --output_dir='$outputDir' --checkpointing_steps=50 --mixed_precision='fp16' --instance_data_dir='$instanceDir' --instance_prompt='a photo of a $cheeseName cheese' --use_8bit_adam --gradient_checkpointing
 
     # Execute the command
     echo "Training model for $cheeseName..."
