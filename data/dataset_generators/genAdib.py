@@ -190,7 +190,7 @@ class GptPrompts2(DatasetGenerator):
         output_dir="dataset/train",
         num_images_per_label=100,
         view_file = "./image_view.txt",
-        context_file = "./cheese_context.txt"
+        context_file = "./cheese_contexts.txt"
     ):
         super().__init__(generator, batch_size, output_dir)
         self.num_images_per_label = num_images_per_label
