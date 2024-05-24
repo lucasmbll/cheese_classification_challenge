@@ -4,4 +4,4 @@ instance:
   frozen: True
   unfreeze_last_layer: True
 
-name: EffNetV2
+name: EffNetV2base

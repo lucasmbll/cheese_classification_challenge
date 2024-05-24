@@ -2,3 +2,40 @@ preload libbz2 : LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6
 utiliser cache spécial pour pas encombre mémoire : export HF_HOME=/Data/mellah.adib/huggingface
 export TRANSFORMERS_CACHE=/Data/mellah.adib/huggingface
 pas encore testé : export NUMEXPR_MAX_THREADS=15
+
+
+
+DreamBooth :
+export OUTPUT_DIR=./outputmodels
+export INSTANCE_DIR=/Data/mellah.adib/cheese_classification_challenge/dataset/val/BEAUFORT
+
+LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6 accelerate launch train_dreambooth_lora_sdxl.py   --output_dir=$OUTPUT_DIR   --checkpointing_steps=50   --mixed_precision="bf16"   --with_prior_preservation   --prior_loss_weight=1.0   --class_data_dir=$CLASS_DATA_DIR   --class_prompt="a photo of a Beaufort cheese"   --use_8bit_adam   --gradient_checkpointing   --instance_data_dir=$INSTANCE_DIR   --instance_prompt="a photo of a Beaufort cheese"
+
+LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6 accelerate launch train_dreambooth.py \
+  --pretrained_model_name_or_path="stabilityai/sdxl-turbo" \
+  --output_dir=$OUTPUT_DIR \
+  --checkpointing_steps=50 \
+  --mixed_precision="bf16" \
+  --snr_gamma=5.0 \
+  --with_prior_preservation \
+  --prior_loss_weight=1.0 \
+  --class_data_dir=$CLASS_DATA_DIR \
+  --class_prompt="a photo of a Beaufort cheese" \
+  --use_8bit_adam \
+  --gradient_checkpointing \
+  --instance_data_dir=$INSTANCE_DIR \
+  --instance_prompt="a photo of a Beaufort cheese"
+  
+  LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6 accelerate launch train_dreambooth_lora_sdxl.py --pretrained_model_name_or_path="stabilityai/stable-diffusion-xl-base-1.0"  --output_dir=$OUTPUT_DIR   --checkpointing_steps=50   --mixed_precision="fp16"    --instance_data_dir=$INSTANCE_DIR   --instance_prompt="a photo of a Beaufort cheese"   --use_8bit_adam   --gradient_checkpointing
+  
+    LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6 accelerate launch train_dreambooth_lora.py --pretrained_model_name_or_path="runwayml/stable-diffusion-v1-5"  --output_dir=$OUTPUT_DIR   --checkpointing_steps=50   --mixed_precision="fp16"    --instance_data_dir=$INSTANCE_DIR   --instance_prompt="a photo of a Beaufort cheese"   --use_8bit_adam   --gradient_checkpointing
+  
+LD_PRELOAD=/Data/mellah.adib/libbz/lib/libbz2.so.1.0.6 accelerate launch test_dreambooth_lora.py 
+-pretrained_model_name_or_path hf-internal-testing/tiny-stable-diffusion-pipe
+                --instance_data_dir docs/source/en/imgs                --instance_prompt photo                --resolution 64                --train_batch_size 1                --gradient_accumulation_steps 1                --max_train_steps 2                --learning_rate 5.0e-04                --scale_lr                --lr_scheduler constant                --lr_warmup_steps 0                --train_text_encoder                --output_dir
+
+
+
+sur windows : 
+accelerate launch ./diffusers/examples/dreambooth/train_dreambooth_lora.py --pretrained_model_name_or_path="runwayml/stable-diffusion-v1-5"  --output_dir=$env:OUTPUT_DIR   --checkpointing_steps=50   --mixed_precision="fp16"    --instance_data_dir=$env:INSTANCE_DIR   --instance_prompt="a photo of a Beaufort cheese"   --use_8bit_adam   --gradient_checkpointing
+

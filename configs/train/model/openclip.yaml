@@ -1,0 +1,6 @@
+instance:
+  _target_: models.openclip.OpenClipTest
+  num_classes: ${dataset.num_classes}
+  frozen: False   # i don't know how to unfreeze the last layer
+
+name: OpenClip

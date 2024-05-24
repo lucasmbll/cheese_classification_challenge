@@ -1,9 +1,13 @@
 import hydra
 from torch.utils.data import Dataset, DataLoader
+from torchvision.transforms.functional import to_pil_image
 import os
 from PIL import Image
 import pandas as pd
 import torch
+import ocr
+import logging
+logging.getLogger().setLevel(logging.ERROR)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -27,7 +31,7 @@ class TestDataset(Dataset):
         return len(self.images_list)
 
 
-@hydra.main(config_path="configs/train", config_name="config")
+@hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def create_submission(cfg):
     test_loader = DataLoader(
         TestDataset(
@@ -39,10 +43,13 @@ def create_submission(cfg):
     )
     # Load model and checkpoint
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
-    checkpoint = torch.load(cfg.checkpoint_path)
+    path = "/Data/mellah.adib/cheese_classification_challenge/checkpoints/DINOV2_gpt_prompts.pt"
+    checkpoint = torch.load(path)
+    #checkpoint = torch.load(cfg.checkpoint_path)
     print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
     model.load_state_dict(checkpoint)
     class_names = sorted(os.listdir(cfg.dataset.train_path))
+    reader = ocr.initialize_ocr(cfg.ocr_method)
 
     # Create submission.csv
     submission = pd.DataFrame(columns=["id", "label"])
@@ -53,6 +60,17 @@ def create_submission(cfg):
         preds = model(images)
         preds = preds.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
+        """for i, image in enumerate(images):
+            # Convert PyTorch tensor to PIL image
+            im = to_pil_image(image.to('cpu'))
+            # Convert PIL image to RGB mode
+            im = im.convert('RGB')
+            lab = ocr.classify_image(im, reader, [])
+            if lab: 
+                print(preds[i], lab)
+                preds[i] = lab
+                print(f"OCR detected label: {lab} for image: {image_names[i]}")"""
+
         submission = pd.concat(
             [
                 submission,

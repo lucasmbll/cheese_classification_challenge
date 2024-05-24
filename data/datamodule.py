@@ -1,6 +1,7 @@
 from torch.utils.data import DataLoader
 from torchvision.datasets import ImageFolder
 from hydra.utils import instantiate
+import clipdataset
 import torch
 
 
