@@ -118,7 +118,7 @@ class GptPrompts(DatasetGenerator):
     def create_prompts(self, labels_names):
         prompts = {}
         for i, label in enumerate(labels_names):
-            if i<12: continue
+            
             prompts[label] = []
             descriptions = self.generate_prompt_description()
             for elt in descriptions:
@@ -207,6 +207,7 @@ class GptPrompts2(DatasetGenerator):
         prompts = {}
         print(labels_names)
         for i, label in enumerate(labels_names):
+            if i<12: continue
             prompts[label] = []
             for _ in range(self.num_images_per_label):
                 view = random.choice(self.views)
