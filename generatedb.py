@@ -174,7 +174,7 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
 
 
 def test_checkpoint(cheese, num_inference_steps=50, guidance_scale=7.5, nb_check=200):
-    path = f"./db_models/{cheese}"
+    path = f"./db_models/val_sorted/{cheese}"
     unet = UNet2DConditionModel.from_pretrained(path+f"/checkpoint-{nb_check}/unet")
 
     pipeline = DiffusionPipeline.from_pretrained(
@@ -194,7 +194,7 @@ def test_checkpoint(cheese, num_inference_steps=50, guidance_scale=7.5, nb_check
 
 def test_model(cheese, num_inference_steps=50, guidance_scale=7.5):
     # Load the model
-    path = f"./db_models/{cheese}"
+    path = f"./db_models/val_sorted/{cheese}"
     pipeline = DiffusionPipeline.from_pretrained(path, torch_dtype=torch.float16, use_safetensors=True).to("cuda")
 
     # Generate the image
@@ -211,12 +211,12 @@ def test_model(cheese, num_inference_steps=50, guidance_scale=7.5):
 
 
 if __name__ == "__main__":
-    """for guid in range(9, 12, 1):
+    for guid in range(9, 12, 1):
         for num_inference_steps in range(20, 61, 10):
-            # test_checkpoint("MOZZARELLA", num_inference_steps, guid, 300)
-            test_model("BRIE DE MELUN", num_inference_steps, guid)"""
+            test_checkpoint("BRIE DE MELUN", num_inference_steps, guid, 600)
+            test_model("BRIE DE MELUN", num_inference_steps, guid)
     
-    generate_images()
+    # generate_images()
 
 
     
