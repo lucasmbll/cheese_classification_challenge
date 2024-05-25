@@ -60,7 +60,7 @@ def create_submission(cfg):
         preds = model(images)
         preds = preds.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
-        """for i, image in enumerate(images):
+        for i, image in enumerate(images):
             # Convert PyTorch tensor to PIL image
             im = to_pil_image(image.to('cpu'))
             # Convert PIL image to RGB mode
@@ -69,7 +69,7 @@ def create_submission(cfg):
             if lab: 
                 print(preds[i], lab)
                 preds[i] = lab
-                print(f"OCR detected label: {lab} for image: {image_names[i]}")"""
+                print(f"OCR detected label: {lab} for image: {image_names[i]}")
 
         submission = pd.concat(
             [
