@@ -184,7 +184,7 @@ def test_checkpoint(cheese, num_inference_steps=50, guidance_scale=7.5, nb_check
     for i in range(nb):
         image = pipeline("A photo of a {cheese}", num_inference_steps=num_inference_steps, guidance_scale=guidance_scale).images[0]
         # Define the directory and file name
-        output_dir = os.path.join("test_db_param", cheese)
+        output_dir = os.path.join("test_db_param_val_sorted", cheese)
         os.makedirs(output_dir, exist_ok=True)
         file_name = f"guid_{guidance_scale}_check_{nb_check}_nbsteps_{num_inference_steps}_{i}.png"
         output_path = os.path.join(output_dir, file_name)
@@ -210,8 +210,8 @@ def test_model(cheese, num_inference_steps=50, guidance_scale=7.5, nb=1):
 
 if __name__ == "__main__":
     for checkpoint in [200, 400, 600]:
-            test_checkpoint("BRIE DE MELUN", 60, 11, checkpoint, nb=10)
-    test_model("BRIE DE MELUN", 60, 11, nb=10)
+            test_checkpoint("BRIE DE MELUN", 60, 9, checkpoint, nb=10)
+    test_model("BRIE DE MELUN", 60, 9, nb=10)
     
     # generate_images()
 
