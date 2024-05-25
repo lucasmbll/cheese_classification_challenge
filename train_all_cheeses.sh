@@ -57,7 +57,7 @@ for cheeseName in "${cheeseNames[@]}"; do
 
     # Construct the command
     command="accelerate launch $baseDir/diffusers/examples/dreambooth/train_dreambooth.py --pretrained_model_name_or_path=runwayml/stable-diffusion-v1-5 --output_dir=\"$outputDir\" \
-            --checkpointing_steps=600 --mixed_precision=fp16 --instance_data_dir=\"$instanceDir\" --instance_prompt=\"a photo of a $cheeseName cheese\" --use_8bit_adam \
+            --checkpointing_steps=1000 --mixed_precision=fp16 --instance_data_dir=\"$instanceDir\" --instance_prompt=\"a photo of a $cheeseName cheese\" --use_8bit_adam \
             --gradient_checkpointing --snr_gamma=5.0 --train_batch_size=1 --gradient_accumulation_steps=1 --learning_rate=2e-6 --lr_scheduler=constant --lr_warmup_steps=0 --max_train_steps=800"
 
     # Execute the command
