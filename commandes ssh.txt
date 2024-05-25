@@ -6,6 +6,8 @@ copier un dossier : scp -r adib.mellah@NEOTINEA.polytechnique.fr:/Data/mellah.ad
 
 scp -r "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\dataset\val_sorted" adib.mellah@NEOTINEA.polytechnique.fr:/Data/mellah.adib/cheese_classification_challenge/dataset
 
+scp -r adib.mellah@NEOTINEA.polytechnique.fr:/Data/mellah.adib/cheese_classification_challenge/db_models "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy"
+
 
 DreamBooth :
 export OUTPUT_DIR=./outputmodels
