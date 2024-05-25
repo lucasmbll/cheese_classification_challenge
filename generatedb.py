@@ -160,7 +160,7 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
                         good = score_zeroshot(images[0], label, cheese_names, 0.1)
                         step+=1
                         print(step)
-                        if step>8:
+                        if step>3:
                             break
                     dataset_generator.save_images(images, label, image_id_0)
                     image_id_0 += len(images)
