@@ -207,12 +207,12 @@ class GptPrompts2(DatasetGenerator):
         prompts = {}
         print(labels_names)
         for i, label in enumerate(labels_names):
-            if i<22: continue
+            # if i<22: continue
             prompts[label] = []
             for _ in range(self.num_images_per_label):
                 view = random.choice(self.views)
                 context = random.choice(self.contexts)
-                prompt_description = f"A photo of a {label} cheese {view}."
+                prompt_description = f"A photo of a {label} cheese."
                 prompts[label].append(
                     {
                         "prompt": prompt_description,
