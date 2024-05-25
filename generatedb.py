@@ -155,12 +155,16 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
                     good = False
                     step=0
                     while not good:
+                        unvalid = []
                         # print("Generating images : not good atm")
                         images = pipe.generate(batch)
                         good = score_zeroshot(images[0], label, cheese_names, 0.1)
                         step+=1
                         print(step)
+                        unvalid.append(images)
                         if step>3:
+                            images = unvalid
+                            i+=step-1
                             break
                     dataset_generator.save_images(images, label, image_id_0)
                     image_id_0 += len(images)

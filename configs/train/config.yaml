@@ -18,6 +18,7 @@ datamodule:
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}
 checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
+nb_repeats: 1
 
 experiment_name: ${model.name}_${dataset.name}
 ocr_method: 'easyocr' # To choose the ocr method
