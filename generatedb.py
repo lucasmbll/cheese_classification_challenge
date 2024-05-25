@@ -116,14 +116,14 @@ class DBSd15Generator2:
         if use_cpu_offload:
             self.pipe.enable_sequential_cpu_offload()
         self.num_inference_steps = 60
-        self.guidance_scale = 11
+        self.guidance_scale = 10
 
-    def generate(self, prompts):
+    def generate(self, prompts, variation=0):
         with torch.autocast(device):
             images = self.pipe(
                 prompts,
                 num_inference_steps=self.num_inference_steps,
-                guidance_scale=self.guidance_scale,
+                guidance_scale=self.guidance_scale+variation,
             ).images
 
         return images
@@ -157,7 +157,13 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
                     while not good:
                         unvalid = []
                         # print("Generating images : not good atm")
-                        images = pipe.generate(batch)
+                        if (i%3==0):
+                            variation = 0
+                        elif (i%3==1):
+                            variation = 1
+                        else:
+                            variation = -1
+                        images = pipe.generate(batch, variation)
                         good = score_zeroshot(images[0], label, cheese_names, 0.1)
                         step+=1
                         print(step)
@@ -209,11 +215,11 @@ def test_model(cheese, num_inference_steps=50, guidance_scale=7.5, nb=1):
 
 
 if __name__ == "__main__":
-    for checkpoint in [200, 400, 600]:
+    """for checkpoint in [200, 400, 600]:
             test_checkpoint("BRIE DE MELUN", 60, 9, checkpoint, nb=10)
-    test_model("BRIE DE MELUN", 60, 9, nb=10)
+    test_model("BRIE DE MELUN", 60, 9, nb=10)"""
     
-    # generate_images()
+    generate_images()
 
 
     
