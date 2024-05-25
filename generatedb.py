@@ -129,14 +129,14 @@ class DBSd15Generator2:
         return images
 
 
-def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
+def generate_images(batch_size=1, output_dir="dataset/train/dreambooth3"):
     file_path = '/Data/mellah.adib/cheese_classification_challenge/list_of_cheese.txt'
     with open(file_path, 'r') as file:
         cheese_names = file.read().splitlines()
 
     # Initialize your dataset generator
     dataset_generator = data.dataset_generators.genAdib.GptPrompts2(DBSd15Generator2(), 
-                                                                    batch_size=batch_size, output_dir=output_dir, num_images_per_label=50)
+                                                                    batch_size=batch_size, output_dir=output_dir, num_images_per_label=100)
     # Create prompts for each cheese
     labels_prompts = dataset_generator.create_prompts(cheese_names)
 
