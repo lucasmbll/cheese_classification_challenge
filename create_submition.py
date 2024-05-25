@@ -43,9 +43,9 @@ def create_submission(cfg):
     )
     # Load model and checkpoint
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
-    path = "/Data/mellah.adib/cheese_classification_challenge/checkpoints/DINOV2_gpt_prompts.pt"
-    checkpoint = torch.load(path)
-    #checkpoint = torch.load(cfg.checkpoint_path)
+    # path = "/Data/mellah.adib/cheese_classification_challenge/checkpoints/DINOV2_gpt_prompts.pt"
+    # checkpoint = torch.load(path)
+    checkpoint = torch.load(cfg.checkpoint_path)
     print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
     model.load_state_dict(checkpoint)
     class_names = sorted(os.listdir(cfg.dataset.train_path))
