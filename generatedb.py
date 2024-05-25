@@ -162,10 +162,11 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth2"):
                         step+=1
                         print(step)
                         unvalid.extend(images)
-                        if step>3:
+                        """if step>3:
                             images = unvalid
                             i+=step-1
-                            break
+                            break"""
+                        good = True
                     dataset_generator.save_images(images, label, image_id_0)
                     image_id_0 += len(images)
                     pbar.update(1)
