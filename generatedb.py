@@ -166,7 +166,7 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth4"):
                         images = pipe.generate(batch, variation)
                         good = score_zeroshot(images[0], label, cheese_names, 0.1)
                         step+=1
-                        print(step)
+                        #print(step)
                         unvalid.extend(images)
                         """if step>3:
                             images = unvalid
