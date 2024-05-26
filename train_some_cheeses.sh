@@ -28,8 +28,8 @@ function TrainStableDiffusionModel {
     local numSteps="${cheesesToRetrain[$cheeseName]}"
     
     # Set the environment variables
-    local instanceDir="$baseDir/dataset/val/$cheeseName"
-    local outputDir="$baseDir/db_models/$cheeseName"
+    local instanceDir="$baseDir/dataset/val_sorted/$cheeseName"
+    local outputDir="$baseDir/db_models/val_sorted/$cheeseName"
 
     # Create the output directory if it doesn't exist
     if [ ! -d "$outputDir" ]; then
