@@ -130,7 +130,7 @@ class DBSd15Generator2:
 
 
 def generate_images(batch_size=1, output_dir="dataset/train/dreambooth4"):
-    file_path = '/Data/mellah.adib/cheese_classification_challenge/list_of_cheese2.txt'
+    file_path = '/Data/mellah.adib/cheese_classification_challenge/list_of_cheese.txt'
     with open(file_path, 'r') as file:
         cheese_names = file.read().splitlines()
 
