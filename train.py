@@ -2,7 +2,6 @@ import torch
 import wandb
 import hydra
 from tqdm import tqdm
-import clip
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -23,6 +22,9 @@ def train(cfg):
     scheduler = None
     if cfg.get("scheduler"):  # Check if scheduler is specified in the config
         scheduler = hydra.utils.instantiate(cfg.scheduler, optimizer=optimizer)
+
+    best_val_acc = 0.0
+    best_model_path = None
 
     for epoch in tqdm(range(cfg.epochs)):
         model.train()
@@ -70,16 +72,8 @@ def train(cfg):
                 images = images.to(device)
                 labels = labels.to(device)
                 with torch.no_grad():
-                    if cfg.model.instance._target_ == "models.openclip.OpenClipTest":
-                        texts = [datamodule.idx_to_class[label.item()] for label in labels]
-                        texts = model.tokenizer(texts).to(device)
-                        logits_per_image, logits_per_text = model(images, texts)
-                        ground_truth = torch.arange(len(images), dtype=torch.long, device=device)
-                        loss = (loss_fn(logits_per_image, ground_truth) + loss_txt(logits_per_text, ground_truth)) / 2
-                        preds = logits_per_image
-                    else:
-                        preds = model(images)
-                        loss = loss_fn(preds, labels)
+                    preds = model(images)
+                    loss = loss_fn(preds, labels)
 
                 y_true.extend(labels.detach().cpu().tolist())
                 y_pred.extend(preds.argmax(1).detach().cpu().tolist())
@@ -101,7 +95,7 @@ def train(cfg):
                     ],
                 )
             )
-            
+
         logger.log(
             {
                 "epoch": epoch,
@@ -109,7 +103,14 @@ def train(cfg):
             }
         )
 
-    torch.save(model.state_dict(), cfg.checkpoint_path)
+        # Check if the current model has the best validation accuracy
+        if val_metrics and val_metrics["val/acc"] > best_val_acc:
+            best_val_acc = val_metrics["val/acc"]
+            best_model_path = f"{cfg.checkpoint_path.replace('.pt', '_best.pth')}"
+            torch.save(model.state_dict(), best_model_path)
+
+    if best_model_path:
+        print(f"Best model saved at: {best_model_path}")
 
 if __name__ == "__main__":
     train()

@@ -55,7 +55,7 @@ foreach ($cheeseName in $cheeseNames) {
     }
 
     # Construct the command with quoted paths and additional parameters
-    $command = "accelerate launch '$baseDir/diffusers/examples/dreambooth/train_dreambooth_lora.py' --pretrained_model_name_or_path='runwayml/stable-diffusion-v1-5' --output_dir='$outputDir' --checkpointing_steps=50 --mixed_precision='fp16' --instance_data_dir='$instanceDir' --instance_prompt='a photo of a $cheeseName cheese' --use_8bit_adam --gradient_checkpointing --with_prior_preservation --prior_loss_weight=1.0 --class_data_dir='$classDataDir' --class_prompt='a photo of a $cheeseName cheese'"
+    $command = "accelerate launch '$baseDir/diffusers/examples/dreambooth/train_dreambooth.py' --pretrained_model_name_or_path='runwayml/stable-diffusion-v1-5' --output_dir='$outputDir' --checkpointing_steps=50 --mixed_precision='fp16' --instance_data_dir='$instanceDir' --instance_prompt='a photo of a $cheeseName cheese' --use_8bit_adam --gradient_checkpointing --with_prior_preservation --prior_loss_weight=1.0 --class_data_dir='$classDataDir' --class_prompt='a photo of a $cheeseName cheese'"
 
     # Execute the command
     Write-Host "Training model for $cheeseName..."
