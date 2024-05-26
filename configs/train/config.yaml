@@ -3,8 +3,9 @@ defaults:
   - dataset: test_prompts
   - optim: adamw
   - loss_fn: cross_entropy
+  - scheduler: null
 
-epochs: 3
+epochs: 5
 
 datamodule:
   _target_: data.datamodule.DataModule
@@ -30,3 +31,5 @@ hydra:
     dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/
   job:
     chdir: true
+
+scheduler: ${scheduler} 

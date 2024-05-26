@@ -7,7 +7,6 @@ import clip
 import warnings
 warnings.filterwarnings("ignore")
 
-
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def train(cfg):
     logger = wandb.init(entity="lucas_mbll", project="challenge_cheese", name=cfg.experiment_name)
@@ -20,6 +19,10 @@ def train(cfg):
 
     train_loader = datamodule.train_dataloader()
     val_loaders = datamodule.val_dataloader()
+
+    scheduler = None
+    if cfg.scheduler:
+        scheduler = hydra.utils.instantiate(cfg.scheduler, optimizer=optimizer)
 
     for epoch in tqdm(range(cfg.epochs)):
         model.train()
@@ -41,6 +44,9 @@ def train(cfg):
             epoch_num_correct += (preds.argmax(1) == labels).sum().detach().cpu().numpy()
             num_samples += len(images)
 
+        if scheduler:
+            scheduler.step()  # Step the learning rate scheduler at the end of each epoch
+
         epoch_loss /= num_samples
         epoch_acc = epoch_num_correct / num_samples
         logger.log(
@@ -50,7 +56,6 @@ def train(cfg):
                 "train_acc": epoch_acc,
             }
         )
-
 
         val_metrics = {}
         model.eval()
