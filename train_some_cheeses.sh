@@ -6,7 +6,7 @@ baseDir="/Data/mellah.adib/cheese_classification_challenge"
 # Define the list of cheeses to retrain with corresponding number of steps
 declare -A cheesesToRetrain=(
     ["EPOISSES"]=800
-    ["COMTÉ"]=600
+    ["COMTÉ"]=800
     ["PECORINO"]=800
     ["SAINT- FÉLICIEN"]=800
     ["MONT D’OR"]=800
