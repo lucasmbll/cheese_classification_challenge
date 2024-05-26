@@ -236,7 +236,8 @@ class Toretrain(DatasetGenerator):
     def create_prompts(self, labels_names):
         prompts = {}
         print(labels_names)
-        for label in labels_names:
+        for i, label in enumerate(labels_names):
+                if(i<7): continue
                 prompts[label] = []
                 if label == "BÛCHETTE DE CHÈVRE":
                     prompts[label].append({"prompt": "A photo of a log of CHÈVRE cheese", "num_images": self.num_images_per_label})
