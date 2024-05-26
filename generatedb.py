@@ -106,7 +106,7 @@ def generate_lora(batch_size=1, output_dir="dataset/train/dreambooth"):
 class DBSd15Generator2:
     def __init__(self, cheese='CAMEMBERT', use_cpu_offload=False):
         # Load the base Stable Diffusion model
-        path = f"./db_models/{cheese}"
+        path = f"./db_models/val_sorted/{cheese}"
         self.pipe = DiffusionPipeline.from_pretrained(path, torch_dtype=torch.float16, use_safetensors=True).to("cuda")
 
         print(f"Loading model from {path}")
@@ -129,7 +129,7 @@ class DBSd15Generator2:
         return images
 
 
-def generate_images(batch_size=1, output_dir="dataset/train/dreambooth3"):
+def generate_images(batch_size=1, output_dir="dataset/train/dreambooth4"):
     file_path = '/Data/mellah.adib/cheese_classification_challenge/list_of_cheese2.txt'
     with open(file_path, 'r') as file:
         cheese_names = file.read().splitlines()

@@ -232,33 +232,11 @@ class Toretrain(DatasetGenerator):
     ):
         super().__init__(generator, batch_size, output_dir)
         self.num_images_per_label = num_images_per_label
-        # Define the set of cheeses with specific prompts
-        self.cheeses_with_specific_prompts = {
-            "BÛCHETTE DE CHÈVRE",
-            "EPOISSES",
-            "GRUYÈRE",
-            "NEUFCHATEL",
-            "PARMESAN",
-            "MOZZARELLA",
-            "COMTÉ",
-            "PECORINO",
-            "SAINT- FÉLICIEN",
-            "MONT D’OR",
-            "SCARMOZA",
-            "CABECOU",
-            "MUNSTER",
-            "REBLOCHON",
-            "MAROILLES",
-            "MOTHAIS",
-            "STILTON",
-            "TÊTE DE MOINES"
-        }
 
     def create_prompts(self, labels_names):
         prompts = {}
         print(labels_names)
         for label in labels_names:
-            if label in self.cheeses_with_specific_prompts:
                 prompts[label] = []
                 if label == "BÛCHETTE DE CHÈVRE":
                     prompts[label].append({"prompt": "A photo of a log of CHÈVRE cheese", "num_images": self.num_images_per_label})
