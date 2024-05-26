@@ -21,7 +21,7 @@ def train(cfg):
     val_loaders = datamodule.val_dataloader()
 
     scheduler = None
-    if cfg.scheduler:
+    if cfg.get("scheduler"):  # Check if scheduler is specified in the config
         scheduler = hydra.utils.instantiate(cfg.scheduler, optimizer=optimizer)
 
     for epoch in tqdm(range(cfg.epochs)):
@@ -110,7 +110,6 @@ def train(cfg):
         )
 
     torch.save(model.state_dict(), cfg.checkpoint_path)
-
 
 if __name__ == "__main__":
     train()
