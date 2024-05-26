@@ -106,7 +106,7 @@ def train(cfg):
         # Check if the current model has the best validation accuracy
         if val_metrics and val_metrics["val/acc"] > best_val_acc:
             best_val_acc = val_metrics["val/acc"]
-            best_model_path = f"{cfg.checkpoint_path.replace('.pt', '_best.pth')}"
+            best_model_path = f"{cfg.checkpoint_path.replace('.pt', '_best.pt')}"
             torch.save(model.state_dict(), best_model_path)
 
     if best_model_path:
