@@ -220,3 +220,63 @@ class GptPrompts2(DatasetGenerator):
                     }
                 )
         return prompts
+
+
+class Toretrain(DatasetGenerator):
+    def __init__(
+        self,
+        generator,
+        batch_size=1,
+        output_dir="dataset/train",
+        num_images_per_label=100
+    ):
+        super().__init__(generator, batch_size, output_dir)
+        self.num_images_per_label = num_images_per_label
+        # Define the set of cheeses with specific prompts
+        self.cheeses_with_specific_prompts = {
+            "BÛCHETTE DE CHÈVRE",
+            "EPOISSES",
+            "GRUYÈRE",
+            "NEUFCHATEL",
+            "PARMESAN",
+            "MOZZARELLA",
+            "COMTÉ",
+            "PECORINO",
+            "SAINT- FÉLICIEN",
+            "MONT D’OR",
+            "SCARMOZA",
+            "CABECOU",
+            "MUNSTER",
+            "REBLOCHON",
+            "MAROILLES",
+            "MOTHAIS",
+            "STILTON",
+            "TÊTE DE MOINES"
+        }
+
+    def create_prompts(self, labels_names):
+        prompts = {}
+        print(labels_names)
+        for label in labels_names:
+            if label in self.cheeses_with_specific_prompts:
+                prompts[label] = []
+                if label == "BÛCHETTE DE CHÈVRE":
+                    prompts[label].append({"prompt": "A photo of a log of CHÈVRE cheese", "num_images": self.num_images_per_label})
+                elif label == "EPOISSES":
+                    prompts[label].append({"prompt": "A photo of a EPOISSES cheese with orange rind", "num_images": self.num_images_per_label})
+                elif label == "GRUYÈRE":
+                    prompts[label].append({"prompt": "A photo of a GRUYÈRE cheese", "num_images": self.num_images_per_label})
+                    prompts[label].append({"prompt": "A photo of a GRUYÈRE cheese without holes", "num_images": self.num_images_per_label})
+                elif label == "NEUFCHATEL":
+                    prompts[label].append({"prompt": "A photo of a heart-shaped NEUFCHATEL cheese", "num_images": self.num_images_per_label})
+                elif label == "PARMESAN":
+                    prompts[label].append({"prompt": "A photo of a PARMESAN cheese wheel", "num_images": self.num_images_per_label})
+                    prompts[label].append({"prompt": "A photo of a grated PARMESAN cheese", "num_images": self.num_images_per_label})
+                    prompts[label].append({"prompt": "A photo of a PARMESAN cheese", "num_images": self.num_images_per_label})
+                elif label == "MOZZARELLA":
+                    prompts[label].append({"prompt": "A photo of a whole MOZZARELLA cheese", "num_images": self.num_images_per_label})
+                    prompts[label].append({"prompt": "A photo of a MOZZARELLA cheese", "num_images": self.num_images_per_label})
+                else:
+                    prompts[label].append({"prompt": f"A photo of a {label} cheese", "num_images": self.num_images_per_label})
+        return prompts
+

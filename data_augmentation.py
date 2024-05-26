@@ -68,7 +68,7 @@ class DataAugmentation:
                     save_path_original = os.path.join(output_dir, f'original_{file}')
                     torchvision.save_image(original_img, save_path_original)
 
-                    nb_images = 5
+                    nb_images = 2
                     if self.aggressive_augmentations:
                         nb_images = 10
 
