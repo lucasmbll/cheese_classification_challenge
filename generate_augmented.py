@@ -12,7 +12,7 @@ def generate_augmented(cfg):
     #generate(cfg)
     print("Data augmentation starting")
     # Initialiser l'objet DataAugmentation
-    data_augmentor = DataAugmentation(data_dir=cfg.dataset_generator.output_dir)
+    data_augmentor = DataAugmentation(data_dir=cfg.dataset_generator.output_dir, aggressive_augmentations=cfg.aggressive_augmentations)
     data_augmentor.augment_images()
 
 
