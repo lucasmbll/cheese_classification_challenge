@@ -1,6 +1,5 @@
 import os
 import torchvision.transforms as transforms
-from torchvision.transforms.functional import elastic_transform
 import torchvision.utils as torchvision
 from PIL import Image
 from tqdm import tqdm
@@ -30,16 +29,17 @@ class DataAugmentation:
                 if self.aggressive_augmentations:
                     transform_augmented = transforms.Compose([
                         transforms.RandomChoice([
-                            transforms.RandomRotation(30),
-                            transforms.RandomResizedCrop(256, scale=(0.7, 1.0)),
                             transforms.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.1, hue=0.05),
-                            transforms.RandomAffine(degrees=30, translate=(0.2, 0.2), scale=(0.7, 1.3), shear=20),
-                            transforms.RandomPerspective(distortion_scale=0.3),
-                            transforms.RandomApply([transforms.RandomErasing()], p=0.5),  # CutOut augmentation
+                            transforms.ElasticTransform(alpha=100.0),
                             # Add more aggressive transformations here
                         ]),
+                        transforms.RandomRotation(30),
+                        transforms.RandomResizedCrop(256, scale=(0.7, 1.0)),
+                        transforms.RandomAffine(degrees=30, translate=(0.2, 0.2), scale=(0.7, 1.3), shear=20),
+                        transforms.RandomPerspective(distortion_scale=0.3),
                         transforms.RandomApply([transforms.GaussianBlur(kernel_size=3)], p=0.7),
-                        transforms.ToTensor()
+                        transforms.ToTensor(),
+                        transforms.RandomApply([transforms.RandomErasing()], p=0.5)
                     ])
                 else:
                     transform_augmented = transforms.Compose([
@@ -74,9 +74,6 @@ class DataAugmentation:
 
                     for i in range(nb_images):
                         augmented_img = transform_augmented(img)
-                        if self.aggressive_augmentations:
-                            augmented_img = elastic_transform(augmented_img, alpha=50, sigma=5)
-
                         save_path_augmented = os.path.join(output_dir, f'aug_{i}_{file}')
                         torchvision.save_image(augmented_img, save_path_augmented)
 
