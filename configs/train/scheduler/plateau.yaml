@@ -1,3 +1,4 @@
-_target_: torch.optim.lr_scheduler.StepLR
-step_size: 10
-gamma: 0.1
+_target_: torch.optim.lr_scheduler.ReduceLROnPlateau
+mode: min
+factor: 0.1
+patience: 10
