@@ -278,7 +278,6 @@ class Toretrain(DatasetGenerator):
                     prompts[label].append({"prompt": "A photo of a MOZZARELLA cheese", "num_images": self.num_images_per_label})
                 elif label == "SCARMOZA":
                     prompts[label].append({"prompt": "A photo of a SCAMORZA cheese", "num_images": self.num_images_per_label})
-                
                 else:
                     prompts[label].append({"prompt": f"A photo of a {label} cheese", "num_images": self.num_images_per_label})
         return prompts
