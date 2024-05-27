@@ -2,9 +2,9 @@ defaults:
   - train_transform: simple
   - test_transform: simple
 
-name: dreambooth1
+name: dbfinalsetaug
 num_classes: 37
-batch_size: 512
+batch_size: 300
 num_workers: 15
 real_images_val_path: ${data_dir}/val
 test_path: ${data_dir}/test

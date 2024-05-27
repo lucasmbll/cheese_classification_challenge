@@ -17,4 +17,7 @@ lr = grand si schduler, faible sinon (ordre de 1e-5)
 
 pour submission :
 tester ocr seuils ?
-faire pleins de trains : 10 si possible, 5 sinon si y a le temps
+faire pleins de trains : 10 si possible, 5 sinon si y a le temps, voire 2 
+
+
+lamb : pas ouf visiblement

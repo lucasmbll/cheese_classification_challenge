@@ -2,10 +2,10 @@ defaults:
   - train_transform: simple
   - test_transform: simple
 
-name: dbfinalset
+name: dbfinalset2aug
 num_classes: 37
-batch_size: 128
+batch_size: 300
 num_workers: 15
 real_images_val_path: ${data_dir}/val
 test_path: ${data_dir}/test
-train_path: ${data_dir}/train/final_train
+train_path: ${data_dir}/train/final_train_2_augmented
