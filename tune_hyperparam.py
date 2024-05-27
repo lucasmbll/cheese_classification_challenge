@@ -38,7 +38,7 @@ def objective(trial, cfg):
 
     # Train the model with the updated configuration
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = instantiate(cfg.model).to(device)
+    model = hydra.utils.instantiate(cfg.model.instance).to(device)
     optimizer = instantiate(cfg.optim, params=model.parameters())
     loss_fn = instantiate(cfg.loss_fn)
     datamodule = instantiate(cfg.datamodule)
