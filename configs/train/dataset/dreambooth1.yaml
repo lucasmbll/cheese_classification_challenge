@@ -8,4 +8,4 @@ batch_size: 64
 num_workers: 15
 real_images_val_path: ${data_dir}/val
 test_path: ${data_dir}/test
-train_path: ${data_dir}/train/dreambooth3
+train_path: ${data_dir}/train/dreambooth4
