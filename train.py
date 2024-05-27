@@ -2,8 +2,8 @@ import torch
 import wandb
 import hydra
 from tqdm import tqdm
-
 import warnings
+
 warnings.filterwarnings("ignore")
 
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)
@@ -13,7 +13,7 @@ def train(cfg):
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
     optimizer = hydra.utils.instantiate(cfg.optim, params=model.parameters())
     loss_fn = hydra.utils.instantiate(cfg.loss_fn)
-    loss_txt = hydra.utils.instantiate(cfg.loss_fn)    # for openclip
+    loss_txt = hydra.utils.instantiate(cfg.loss_fn)  # for openclip
     datamodule = hydra.utils.instantiate(cfg.datamodule)
 
     train_loader = datamodule.train_dataloader()
@@ -24,7 +24,7 @@ def train(cfg):
         scheduler = hydra.utils.instantiate(cfg.scheduler, optimizer=optimizer)
 
     best_val_acc = 0.0
-    best_model_path = None
+    best_model_path = cfg.checkpoint_path
 
     for epoch in tqdm(range(cfg.epochs)):
         model.train()
@@ -103,10 +103,13 @@ def train(cfg):
             }
         )
 
-        # Check if the current model has the best validation accuracy
-        if val_metrics and val_metrics["val/acc"] > best_val_acc:
-            best_val_acc = val_metrics["val/acc"]
-            torch.save(model.state_dict(), cfg.checkpoint_path)
+        # Debug print to check keys in val_metrics
+        print(f"Validation metrics keys: {list(val_metrics.keys())}")
+
+        # Check if the current model has the best real_val accuracy
+        if f"real_val/acc" in val_metrics and val_metrics["real_val/acc"] > best_val_acc:
+            best_val_acc = val_metrics["real_val/acc"]
+            torch.save(model.state_dict(), best_model_path)
 
     if best_model_path:
         print(f"Best model saved at: {best_model_path}")
