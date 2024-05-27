@@ -1,0 +1,20 @@
+plan d'action :
+
+tester schduler/optim sur petit ou moyen dataset
+loss_fn ?
+tester grand batch size
+passer à moyen final dataset
+retester les schedulers si s'était utile sur les petits
+modifer lr
+tester le plus de data augmentation possible
+
+train final:
+modèle = dino large
+batch_size = le plus grand possible
+epochs = plein et prendre le meilleur
+optim = lamb ou adamw selon les résultats
+lr = grand si schduler, faible sinon (ordre de 1e-5)
+
+pour submission :
+tester ocr seuils ?
+faire pleins de trains : 10 si possible, 5 sinon si y a le temps
