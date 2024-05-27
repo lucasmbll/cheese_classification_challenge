@@ -6,6 +6,8 @@ import optuna
 import logging
 from hydra.utils import instantiate
 from omegaconf import OmegaConf
+import matplotlib.pyplot as plt
+import numpy as np
 
 warnings.filterwarnings("ignore")
 
@@ -53,6 +55,8 @@ def objective(trial, cfg):
         scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, **scheduler_params)
 
     best_val_acc = 0.0
+    train_acc_per_epoch = []
+    val_acc_per_epoch = []
 
     for epoch in tqdm(range(cfg.epochs)):
         model.train()
@@ -81,6 +85,7 @@ def objective(trial, cfg):
 
         epoch_loss /= num_samples
         epoch_acc = epoch_num_correct / num_samples
+        train_acc_per_epoch.append(epoch_acc)
         logger.info(f"Epoch {epoch}: train_loss_epoch = {epoch_loss}, train_acc = {epoch_acc}")
 
         val_metrics = {}
@@ -110,22 +115,48 @@ def objective(trial, cfg):
             val_metrics[f"{val_set_name}/loss"] = epoch_loss
             val_metrics[f"{val_set_name}/acc"] = epoch_acc
 
+            if val_set_name == 'real_val':
+                if epoch_acc > best_val_acc:
+                    best_val_acc = epoch_acc
+
+        val_acc_per_epoch.append(val_metrics['real_val/acc'])
         logger.info(f"Epoch {epoch}: val_metrics = {val_metrics}")
 
-    return best_val_acc
+    return best_val_acc, train_acc_per_epoch, val_acc_per_epoch
 
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def main(cfg):
     study = optuna.create_study(direction='maximize')
     study.optimize(lambda trial: objective(trial, cfg), n_trials=20)
     
-    # Log the best trial results
     logger.info(f"Best trial: {study.best_trial.value}")
     logger.info(f"Best hyperparameters: {study.best_trial.params}")
     
     # Save the study results
     df = study.trials_dataframe()
     df.to_csv("optuna_results.csv", index=False)
+
+    # Plotting training and validation accuracies per epoch for each trial
+    for i, trial in enumerate(study.trials):
+        train_acc_per_epoch = trial.user_attrs['train_acc_per_epoch']
+        val_acc_per_epoch = trial.user_attrs['val_acc_per_epoch']
+        
+        plt.plot(train_acc_per_epoch, label=f'Trial {i+1}: Train Acc')
+        plt.plot(val_acc_per_epoch, label=f'Trial {i+1}: Val Acc')
+    
+    plt.xlabel('Epoch')
+    plt.ylabel('Accuracy')
+    plt.title('Training and Validation Accuracies per Epoch')
+    plt.legend()
+    plt.savefig('accuracy_per_epoch.png')
+    plt.show()
+
+    # Analysis of results
+    logger.info("Analysis of Results:")
+    logger.info("====================")
+    logger.info("The best hyperparameters found:")
+    logger.info(study.best_trial.params)
+    logger.info(f"The best validation accuracy found: {study.best_trial.value}")
 
 if __name__ == "__main__":
     main()
