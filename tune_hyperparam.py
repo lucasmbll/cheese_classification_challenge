@@ -108,7 +108,7 @@ def objective(trial, cfg):
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def main(cfg):
     study = optuna.create_study(direction='maximize')
-    study.optimize(lambda trial: objective(trial, cfg), n_trial=20)
+    study.optimize(lambda trial: objective(trial, cfg), n_trials=20)
     
     # Log the best trial results
     logger.info(f"Best trial: {study.best_trial.value}")
