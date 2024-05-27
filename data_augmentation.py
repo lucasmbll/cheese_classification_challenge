@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 
 class DataAugmentation:
-    def __init__(self, data_dir, aggressive_augmentations=False):
+    def __init__(self, data_dir, aggressive_augmentations=0):
         self.data_dir = data_dir
         self.aggressive_augmentations = aggressive_augmentations
         print("dir is " + self.data_dir)
@@ -26,7 +26,7 @@ class DataAugmentation:
                 ])
 
                 # Apply regular or aggressive augmentations based on the flag
-                if self.aggressive_augmentations:
+                if self.aggressive_augmentations==1:
                     transform_augmented = transforms.Compose([
                         transforms.RandomChoice([
                             transforms.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.1, hue=0.05),
@@ -40,6 +40,21 @@ class DataAugmentation:
                         transforms.RandomApply([transforms.GaussianBlur(kernel_size=3)], p=0.7),
                         transforms.ToTensor(),
                         transforms.RandomApply([transforms.RandomErasing()], p=0.5)
+                    ])
+                elif self.aggressive_augmentations==2:
+                    transform_augmented = transforms.Compose([
+                        transforms.RandomChoice([
+                            transforms.ColorJitter(brightness=0.4, contrast=0.4, saturation=0.2, hue=0.1),
+                            transforms.ElasticTransform(alpha=150.0),
+                            # Add more aggressive transformations here
+                        ]),
+                        transforms.RandomRotation(50),
+                        transforms.RandomResizedCrop(256, scale=(0.6, 1.0)),
+                        transforms.RandomAffine(degrees=50, translate=(0.3, 0.3), scale=(0.6, 1.3), shear=30),
+                        transforms.RandomPerspective(distortion_scale=0.4),
+                        transforms.RandomApply([transforms.GaussianBlur(kernel_size=3)], p=0.8),
+                        transforms.ToTensor(),
+                        transforms.RandomApply([transforms.RandomErasing()], p=0.4)
                     ])
                 else:
                     transform_augmented = transforms.Compose([
@@ -69,8 +84,12 @@ class DataAugmentation:
                     torchvision.save_image(original_img, save_path_original)
 
                     nb_images = 2
-                    if self.aggressive_augmentations:
+                    if self.aggressive_augmentations==1:
                         nb_images = 10
+                    elif self.aggressive_augmentations==2:
+                        nb_images = 20
+                    elif self.aggressive_augmentations>=3:
+                        nb_images = 10*self.aggressive_augmentations
 
                     for i in range(nb_images):
                         augmented_img = transform_augmented(img)

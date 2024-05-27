@@ -103,9 +103,6 @@ def train(cfg):
             }
         )
 
-        # Debug print to check keys in val_metrics
-        print(f"Validation metrics keys: {list(val_metrics.keys())}")
-
         # Check if the current model has the best real_val accuracy
         if f"real_val/acc" in val_metrics and val_metrics["real_val/acc"] > best_val_acc:
             best_val_acc = val_metrics["real_val/acc"]

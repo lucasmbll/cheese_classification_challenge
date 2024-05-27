@@ -1,4 +1,3 @@
-optim:
   _target_: torch_optimizer.Lamb
   lr: 1e-3
   weight_decay: 0.01

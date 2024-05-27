@@ -7,7 +7,7 @@ root_dir:  ${hydra:runtime.cwd}
 batch_size: 1
 
 labels_file: ${root_dir}/list_of_cheese.txt
-aggressive_augmentations: false
+aggressive_augmentations: 0
 
 hydra:
   run:
