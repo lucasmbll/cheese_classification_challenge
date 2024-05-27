@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 def objective(trial, cfg):
     # Define the hyperparameter search space
     lr = trial.suggest_loguniform('optim.lr', 1e-5, 1e-2)
-    batch_size = trial.suggest_categorical('datamodule.batch_size', [16, 32, 64, 128])
+    batch_size = trial.suggest_categorical('datamodule.batch_size', [64, 128, 256])
     beta1 = trial.suggest_uniform('optim.betas[0]', 0.8, 0.999)
     beta2 = trial.suggest_uniform('optim.betas[1]', 0.8, 0.999)
     weight_decay = trial.suggest_loguniform('optim.weight_decay', 1e-5, 1e-2)
@@ -27,7 +27,23 @@ def objective(trial, cfg):
     cfg.datamodule.batch_size = batch_size
     cfg.optim.betas = (beta1, beta2)
     cfg.optim.weight_decay = weight_decay
-    cfg.scheduler = scheduler_choice
+    
+    # Adjust the scheduler parameters based on the choice
+    if scheduler_choice == 'steplr':
+        cfg.scheduler = {
+            '_target_': 'torch.optim.lr_scheduler.StepLR',
+            'step_size': trial.suggest_int('scheduler.steplr.step_size', 1, 10),
+            'gamma': trial.suggest_uniform('scheduler.steplr.gamma', 0.1, 0.9)
+        }
+    elif scheduler_choice == 'plateau':
+        cfg.scheduler = {
+            '_target_': 'torch.optim.lr_scheduler.ReduceLROnPlateau',
+            'mode': 'min',
+            'factor': trial.suggest_uniform('scheduler.plateau.factor', 0.1, 0.9),
+            'patience': trial.suggest_int('scheduler.plateau.patience', 1, 3)
+        }
+    else:
+        cfg.scheduler = 'null'
 
     # Train the model with the updated configuration
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -40,7 +56,7 @@ def objective(trial, cfg):
     val_loaders = datamodule.val_dataloader()
 
     scheduler = None
-    if cfg.get("scheduler"):
+    if cfg.scheduler != 'null':
         scheduler = instantiate(cfg.scheduler, optimizer=optimizer)
 
     best_val_acc = 0.0
@@ -65,10 +81,7 @@ def objective(trial, cfg):
             num_samples += len(images)
 
         if scheduler:
-            if scheduler_choice == 'plateau':
-                scheduler.step(epoch_loss)
-            else:
-                scheduler.step()
+            scheduler.step(epoch_loss) if scheduler_choice == 'plateau' else scheduler.step()
 
         epoch_loss /= num_samples
         epoch_acc = epoch_num_correct / num_samples
