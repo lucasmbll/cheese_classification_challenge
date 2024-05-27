@@ -58,6 +58,9 @@ def objective(trial, cfg):
     train_acc_per_epoch = []
     val_acc_per_epoch = []
 
+    # Log the parameters used for the current trial
+    logger.info(f"Trial {trial.number}: Parameters - {trial.params}")
+
     for epoch in tqdm(range(cfg.epochs)):
         model.train()
         epoch_loss = 0
