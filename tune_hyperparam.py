@@ -20,7 +20,7 @@ def objective(trial, cfg):
     beta1 = trial.suggest_uniform('optim.betas[0]', 0.8, 0.999)
     beta2 = trial.suggest_uniform('optim.betas[1]', 0.8, 0.999)
     weight_decay = trial.suggest_loguniform('optim.weight_decay', 1e-5, 1e-2)
-    scheduler_choice = trial.suggest_categorical('scheduler.name', ['null', 'steplr', 'plateau'])
+    scheduler_choice = trial.suggest_categorical('scheduler', ['null', 'steplr', 'plateau'])
 
     # Update the configuration with the hyperparameters
     cfg.optim.lr = lr
