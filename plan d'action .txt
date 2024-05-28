@@ -21,3 +21,8 @@ faire pleins de trains : 10 si possible, 5 sinon si y a le temps, voire 2
 
 
 lamb : pas ouf visiblement
+
+
+
+
+Param {'optim.lr': 0.00011331813660739991, 'datamodule.batch_size': 64, 'optim.betas[0]': 0.9094594559663549, 'optim.betas[1]': 0.8154703043367282, 'optim.weight_decay': 1.3317151031705178e-05, 'scheduler': 'plateau', 'scheduler.plateau.factor': 0.7248063445397167, 'scheduler.plateau.patience': 7} donnent 0.60 real val acc !
