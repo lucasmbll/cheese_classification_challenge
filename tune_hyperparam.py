@@ -6,8 +6,9 @@ import optuna
 import logging
 from hydra.utils import instantiate
 from omegaconf import OmegaConf
+import pandas as pd
+import os
 import matplotlib.pyplot as plt
-import numpy as np
 
 warnings.filterwarnings("ignore")
 
@@ -125,7 +126,23 @@ def objective(trial, cfg):
         val_acc_per_epoch.append(val_metrics['real_val/acc'])
         logger.info(f"Epoch {epoch}: val_metrics = {val_metrics}")
 
-    return best_val_acc, train_acc_per_epoch, val_acc_per_epoch
+    # Save trial results to CSV
+    results = {
+        'trial_number': trial.number,
+        'best_val_acc': best_val_acc,
+        'train_acc_per_epoch': train_acc_per_epoch,
+        'val_acc_per_epoch': val_acc_per_epoch,
+        'params': trial.params
+    }
+
+    results_df = pd.DataFrame([results])
+    if not os.path.isfile('trial_results.csv'):
+        results_df.to_csv('trial_results.csv', index=False)
+    else:
+        results_df.to_csv('trial_results.csv', mode='a', header=False, index=False)
+
+    # Return only the value needed for Optuna optimization
+    return best_val_acc
 
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def main(cfg):
