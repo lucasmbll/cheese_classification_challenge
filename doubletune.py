@@ -10,7 +10,12 @@ warnings.filterwarnings("ignore")
 def train(cfg):
     logger = wandb.init(entity="lucas_mbll", project="challenge_cheese", name=cfg.experiment_name)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
+    checkpoint = torch.load(cfg.checkpoint_path)
+    print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
+    model.load_state_dict(checkpoint)
+    
     optimizer = hydra.utils.instantiate(cfg.optim, params=model.parameters())
     loss_fn = hydra.utils.instantiate(cfg.loss_fn)
     loss_txt = hydra.utils.instantiate(cfg.loss_fn)  # for openclip
@@ -24,7 +29,7 @@ def train(cfg):
         scheduler = hydra.utils.instantiate(cfg.scheduler, optimizer=optimizer)
 
     best_val_acc = 0.0
-    best_model_path = cfg.checkpoint_path
+    best_model_path = cfg.checkpoint_path.replace(".pt", "_doubletune.pt")
 
     for epoch in tqdm(range(cfg.epochs)):
         model.train()
