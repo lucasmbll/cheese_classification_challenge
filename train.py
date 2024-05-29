@@ -23,6 +23,8 @@ def train(cfg):
     if cfg.get("scheduler"):  # Check if scheduler is specified in the config
         scheduler = hydra.utils.instantiate(cfg.scheduler, optimizer=optimizer)
         print(cfg.scheduler)
+        if cfg.scheduler._target_ == 'torch.optim.lr_scheduler.ReduceLROnPlateau':
+            print("ok !!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     best_val_acc = 0.0
     best_model_path = cfg.checkpoint_path
@@ -48,7 +50,7 @@ def train(cfg):
             num_samples += len(images)
 
         if scheduler:
-            if cfg.scheduler == 'plateau':
+            if cfg.scheduler._target_ == 'torch.optim.lr_scheduler.ReduceLROnPlateau':
                 scheduler.step(epoch_loss)
             else:
                 scheduler.step()
