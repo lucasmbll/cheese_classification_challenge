@@ -47,7 +47,10 @@ def train(cfg):
             num_samples += len(images)
 
         if scheduler:
-            scheduler.step()  # Step the learning rate scheduler at the end of each epoch
+            if cfg.scheduler == 'plateau':
+                scheduler.step(epoch_loss)
+            else:
+                scheduler.step()
 
         epoch_loss /= num_samples
         epoch_acc = epoch_num_correct / num_samples
