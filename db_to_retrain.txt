@@ -14,12 +14,5 @@ MOZZARELLA
 STILTON
 TÊTE DE MOINES
 
-robocopy "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\dreambooth3" "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\final_train" /E /COPYALL /XJ /R:3 /W:5 /ETA /LOG:"log_file.txt" /NP
-
-robocopy "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\dreambooth4" "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\final_train" /E /COPYALL /XJ /R:3 /W:5 /ETA /LOG+:"log_file.txt" /NP
-
-robocopy "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\data_lucas" "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\final_train" /E /COPYALL /XJ /R:3 /W:5 /ETA /LOG+:"log_file.txt" /NP
-
-robocopy "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\dreambooth2" "C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\scp_copy\final_train" /E /COPYALL /XJ /R:3 /W:5 /ETA /LOG+:"log_file.txt" /NP
 
 

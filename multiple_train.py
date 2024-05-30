@@ -7,6 +7,8 @@ import clip
 import warnings
 warnings.filterwarnings("ignore")
 
+"""The goal was to train numerous models for the same architecture. Never used."""
+
 
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def train(cfg):

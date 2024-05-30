@@ -93,9 +93,10 @@ def generate_lora(batch_size=1, output_dir="dataset/train/dreambooth"):
                     batch = prompt[i : i + batch_size]
                     good = False
                     while not good:
-                        print("Generating images : not good atm")
+                        # print("Generating images : not good atm")
                         images = pipe.generate(batch)
-                        good = score_zeroshot(images[0], label, cheese_names)
+                        # good = score_zeroshot(images[0], label, cheese_names)
+                        good = True
                     dataset_generator.save_images(images, label, image_id_0)
                     image_id_0 += len(images)
                     pbar.update(1)
@@ -164,10 +165,10 @@ def generate_images(batch_size=1, output_dir="dataset/train/dreambooth4"):
                         else:
                             variation = -1
                         images = pipe.generate(batch, variation)
-                        good = score_zeroshot(images[0], label, cheese_names, 0.1)
+                        #good = score_zeroshot(images[0], label, cheese_names, 0.1)
                         step+=1
                         #print(step)
-                        unvalid.extend(images)
+                        #unvalid.extend(images)
                         """if step>3:
                             images = unvalid
                             i+=step-1

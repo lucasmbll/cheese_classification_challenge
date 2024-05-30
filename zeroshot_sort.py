@@ -5,6 +5,9 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+"""Created to conduct data curation. Not used due to a lack of efficiency."""
+
 # Define your zero-shot scoring function
 def score_zeroshot(image, cheese, cheese_labels, score_lim=0.1):
     model, _, preprocess = open_clip.create_model_and_transforms('ViT-B-32', pretrained='laion2b_s34b_b79k')

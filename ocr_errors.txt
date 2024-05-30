@@ -1,7 +1,0 @@
-OCR Errors for easyocr/fuzzywuzzy classification
-
-Errors for threshold: 0.6
-Error for Image: 000009.jpg, Label: BEAUFORT, Detected: EPOISSES
-Error for Image: 000016.jpg, Label: BEAUFORT, Detected: BÛCHETTE DE CHÈVRE
-Error for Image: 000015.jpg, Label: BRIE DE MELUN, Detected: RACLETTE
-Error for Image: 000011.jpg, Label: BÛCHETTE DE CHÈVRE, Detected: CHÈVRE
