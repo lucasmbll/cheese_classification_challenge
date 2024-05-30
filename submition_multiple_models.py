@@ -49,8 +49,8 @@ def create_submission(cfg):
     for path in weights_path:
         full_path = os.path.join(base_path, path)
         model = hydra.utils.instantiate(cfg.model.instance).to(device)
-        checkpoint = torch.load(path)
-        print(f"Loading model from checkpoint: {path}")
+        checkpoint = torch.load(full_path)
+        print(f"Loading model from checkpoint: {full_path}")
         model.load_state_dict(checkpoint)
         model.eval()  # Set model to evaluation mode
         models.append(model)
