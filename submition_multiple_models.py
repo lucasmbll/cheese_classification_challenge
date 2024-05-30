@@ -45,7 +45,7 @@ def create_submission(cfg):
     # Load models and their checkpoints
     models = []
     base_path = os.path.join(hydra.utils.get_original_cwd(), "checkpoints")  # "checkpoints" folder in the root directory
-    weights_path = ["DINOV2LARGE_dbfinalsetaug_doubletune.pt", "second_final_model.pt", "Final_balanced_lucas.pt"]
+    weights_path = ["DINOV2LARGE_dbfinalsetaug_doubletune.pt", "second_final_model.pt", "Final_balanced_lucas.pt", "Final_lucas.pt"]
     for path in weights_path:
         full_path = os.path.join(base_path, path)
         model = hydra.utils.instantiate(cfg.model.instance).to(device)
