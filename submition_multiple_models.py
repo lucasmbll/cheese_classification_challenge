@@ -82,7 +82,7 @@ def create_submission(cfg):
         preds = avg_probs.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
 
-        for j, image_name in enumerate(image_names):
+        """for j, image_name in enumerate(image_names):
             # Load the original image
             image_path = os.path.join(cfg.dataset.test_path, f"{image_name}.jpg")
             original_image = Image.open(image_path).convert('RGB')
@@ -90,7 +90,7 @@ def create_submission(cfg):
             lab = ocr.classify_image(original_image, reader, cheese_names, cfg.threshold_ocr, increment=cfg.increment, ocr_method=cfg.ocr_method, comparison_method=cfg.comparison_method)
             if lab:
                 preds[j] = lab
-                ocr_identified += 1
+                ocr_identified += 1"""
 
         submission = pd.concat(
             [
