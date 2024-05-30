@@ -8,10 +8,8 @@ import torch
 import ocr
 import logging
 import torch.nn.functional as F
-logging.getLogger().setLevel(logging.ERROR)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 
 class TestDataset(Dataset):
     def __init__(self, test_dataset_path, test_transform):
@@ -34,6 +32,7 @@ class TestDataset(Dataset):
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def create_submission(cfg):
     logging.getLogger().setLevel(logging.ERROR)
+
     test_loader = DataLoader(
         TestDataset(
             cfg.dataset.test_path, hydra.utils.instantiate(cfg.dataset.test_transform)
@@ -42,11 +41,20 @@ def create_submission(cfg):
         shuffle=False,
         num_workers=cfg.dataset.num_workers,
     )
-    # Load model and checkpoint
-    model = hydra.utils.instantiate(cfg.model.instance).to(device)
-    checkpoint = torch.load(cfg.checkpoint_path)
-    print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
-    model.load_state_dict(checkpoint)
+    
+    # Load models and their checkpoints
+    models = []
+    base_path = os.path.join(hydra.utils.get_original_cwd(), "checkpoints")  # "checkpoints" folder in the root directory
+    weights_path = []
+    for path in weights_path:
+        full_path = os.path.join(base_path, path)
+        model = hydra.utils.instantiate(cfg.model.instance).to(device)
+        checkpoint = torch.load(path)
+        print(f"Loading model from checkpoint: {path}")
+        model.load_state_dict(checkpoint)
+        model.eval()  # Set model to evaluation mode
+        models.append(model)
+
     class_names = sorted(os.listdir(cfg.dataset.train_path))
     reader = ocr.initialize_ocr(cfg.ocr_method)
 
@@ -60,10 +68,20 @@ def create_submission(cfg):
         nb_images += len(batch[0])
         images, image_names = batch
         images = images.to(device)
-        prob = model(images)
-        prob = F.softmax(prob, 1)
-        preds = prob.argmax(1)
+        
+        # Aggregate probabilities from each model
+        all_probs = torch.zeros((images.size(0), len(class_names)), device=device)
+        for model in models:
+            with torch.no_grad():
+                prob = model(images)
+                prob = F.softmax(prob, 1)
+                all_probs += prob
+        
+        # Average the probabilities
+        avg_probs = all_probs / len(models)
+        preds = avg_probs.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
+
         for j, image_name in enumerate(image_names):
             # Load the original image
             image_path = os.path.join(cfg.dataset.test_path, f"{image_name}.jpg")
@@ -71,9 +89,6 @@ def create_submission(cfg):
             
             lab = ocr.classify_image(original_image, reader, cheese_names, cfg.threshold_ocr, increment=cfg.increment, ocr_method=cfg.ocr_method, comparison_method=cfg.comparison_method)
             if lab:
-                if lab != preds[j] and prob[j].max()>0.2:
-                    print(prob[j].max())
-                    print(f"OCR detected label: {lab} whereas model predicted {preds[j]} for image {image_name}")
                 preds[j] = lab
                 ocr_identified += 1
 
@@ -85,7 +100,6 @@ def create_submission(cfg):
         )
     submission.to_csv(f"{cfg.root_dir}/submission.csv", index=False)
     print(f"OCR identified {ocr_identified} labels")
-
 
 if __name__ == "__main__":
     create_submission()

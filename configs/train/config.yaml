@@ -25,6 +25,7 @@ experiment_name: ${model.name}_${dataset.name}
 ocr_method: 'easyocr' # To choose the ocr method
 comparison_method: 'fuzzywuzzy'  # or 'difflib'
 threshold_ocr: 0.8  # Threshold for the ocr method
+increment: 0.05  # Increment for the threshold
 
 hydra:
   run:

@@ -56,7 +56,7 @@ def plot_confusion_matrix(csv_file):
     print(f"Confusion matrix plot saved to {output_path}")
 
 if __name__ == "__main__":
-    csv_file = r'C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\results\finalsetAug_conf_matrix_MIDTRAINING.csv'
+    csv_file = r'C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge\results\conf_matric_doubletune.csv'
     if os.path.isfile(csv_file):
         plot_confusion_matrix(csv_file)
     else:

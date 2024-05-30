@@ -14922,3 +14922,11 @@ scp_copy/submission.csv
 scp_copy/submission.csv
 scp_copy/submission.csv
 /scp_copy
+results/conf_matric_doubletune.csv
+results/conf_matrix_doubletune.png
+results/conf_matrix_finalsetAug_MIDTRAINING.png
+results/confus_matrix_finalset.png
+results/confusion_matrix_wandb_finalSet.csv
+results/finalsetAug_conf_matrix.csv
+results/finalsetAug_conf_matrix.png
+results/finalsetAug_conf_matrix_MIDTRAINING.csv

@@ -84,7 +84,7 @@ def perform_ocr(ocr, img, ocr_method):
         det_text = [line[1] for line in result]
     return det_text
 
-def classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_names, threshold_base=0.8, increment=0.05, f=None, debug=False):
+def classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_names=[], threshold_base=0.8, increment=0.05, f=None, debug=False):
     label = None
     matches = check_cheese_name(detected_text, cheese_names, method='fuzzywuzzy', threshold=threshold_base)
     if not matches: return label
@@ -115,18 +115,20 @@ def classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_nam
             else:  label = matches[0][1]
         elif (matches[0][1] =='PARMIGIANO'): label = "PARMESAN"
         elif (matches[0][1] =='BERTHAUT'): label = "EPOISSES"
-        elif (matches[1][1]  == "BÛCHE" or matches[1][1]  == "BUCHE" or matches[1][1]== "BÛCHE DE CHÈVRE"):
+        elif (matches[0][1]  == "BÛCHE" or matches[0][1]  == "BUCHE" or matches[0][1]== "BÛCHE DE CHÈVRE"):
             label = "BÛCHETTE DE CHÈVRE"
         elif (matches[0][1] == "FROMAGE BLANC"): label = "FROMAGE FRAIS"
+        elif (matches[0][1] == "SCAMORZA"): label = "SCARMOZA"
+        elif (matches[0][1] == "TOMME"): label = "TOMME DE VACHE"
         else: label = matches[0][1]
 
     return label
 
-def classify_image(image_, ocr, high_treshold_cheese_names, threshold_base=0.8, increment=0.05, ocr_method='easyocr', comparison_method='fuzzywuzzy', f=None):
+
+def classify_image(image_, ocr, cheese_names, threshold_base=0.8, increment=0.05, ocr_method='easyocr', comparison_method='fuzzywuzzy', f=None):
     
     detected_text = perform_ocr(ocr, image_, ocr_method)
-    cheese_names = load_cheese_names('/Data/mellah.adib/cheese_classification_challenge/cheese_ocr.txt')
-    label = classify_results_fuzzy(detected_text, cheese_names, high_treshold_cheese_names, threshold_base=threshold_base, increment=increment, f=f)
+    label = classify_results_fuzzy(detected_text, cheese_names, [], threshold_base=threshold_base, increment=increment, f=f)
     
     return label
 
@@ -295,4 +297,29 @@ if __name__ == "__main__":
     label = classify_results_fuzzy(detected_text, cheese_names, [], threshold_base=0.75, increment=0.05, debug=True)
     print(label)"""
 
-    test_efficiency(0.6, 0.95, 0.05)
+    # test_efficiency(0.6, 0.95, 0.05)
+    folder_path = r"C:\Users\adib4\OneDrive\Documents\Travail\X\MODAL DL\cheese_classification_challenge/dataset/test"
+    cheese_names = load_cheese_names('./cheese_ocr.txt')
+    ocr = initialize_ocr('easyocr')
+
+    thresholds = np.arange(0.6, 0.95, 0.05)
+
+    for threshold in thresholds:
+        nb_identified = 0
+        identified = []
+        for image_name in os.listdir(folder_path):
+            image_path = os.path.join(folder_path, image_name)
+            img = Image.open(image_path).convert('RGB')
+            label = classify_image(img, ocr, cheese_names, threshold_base=threshold, increment=0.05, ocr_method='easyocr', comparison_method='fuzzywuzzy')
+            if label:
+                nb_identified += 1
+                identified.append((image_name, label))
+                # print(f"Image: {image_name}, Detected: {label}")
+        print(f"Number of identified images: {nb_identified}")
+        identified_file = './identified_cheeses.txt'
+        with open(identified_file, 'a') as file: 
+            file.write(f"Threshold: {threshold}\n")
+            file.write(f"Number of identified images: {nb_identified}\n")
+            for img_name, label in identified:
+                file.write("Label: " + label + " for image: " + img_name + "\n")
+            file.write("\n\n")
