@@ -68,3 +68,19 @@ python create_submition.py experiment_name="name_of_the_exp_you_want_to_score" m
 ```
 
 Make sure to specify the name of the checkpoint you want to score and to have the right model config
+
+
+## Files of Adib and Lucas
+
+* train_all_cheeses.sh : Training of DreamBooth for all cheeses (outputs 37 models) with parameter of the "command" variable. The data for training is the validation set. The output models are stored in db_models folder.
+* ocr.py : to run OCR during submition creation
+* submition_multiple_models.py : to make a submition with mutliple models
+* zeroshot_sort.py was attempt to automate the sorting of generated images with clip in order to keep only best quality pictures.
+* analysis_optuna.py : for hyperparameters optimization via Optuna
+* augment_valdata.py : attempt for using data_augmentation on the val set to train DreamBooth
+* cheese_contexts.txt : texte with context for prompt engineering
+* cheese_ocr.txt : text that OCR should be able to recognize
+* cheese_prompts.txt : more precised situation for prompt engineering
+* db_to_retrain.txt : Dreambooths models that have to be trained again (because some cheese have not been well understood the first time).
+* doubletune.py : for a second finetune phase
+* generate_augmented.py and data_augmentation.py : data augmentation
